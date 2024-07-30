@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ======google font=========== -->
+
+    <!-- =========font-awesome======== -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- =========bootstrap========= -->
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <!-- =========boxicons======== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!--=============== REMIX ICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <link
+  href="https://unpkg.com/video.js@7/dist/video-js.min.css"
+  rel="stylesheet"
+/>
+    <!-- ==========slick-slider-css=========== -->
+    <link href="css/slick.css" rel="stylesheet" />
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="scss/my-team/my-team.css" />
+   
+    <link rel="stylesheet" href="scss/responsive/responsive.css" />
+    <title>Responsive menu dropdown</title>
+  </head>
+
+  <body>
+    <!-- ==================================body start=========================================== -->
+
+    <div class="container-fluid">
+      <div class="row">
+        <!-- ==================================menu function start=========================================== -->
+
+        <div class="col-md-2 position">
+          <!--===== ===================================================
+    ============================================================
+    =============================================================
+    responsive navbar
+    ==============================================================
+    ===========================================================
+    ==============================================================
+    ====================================================== =====-->
+          <header class="header container">
+            <i class="bx bx-menu header__toggle" id="header-toggle"> </i>
+
+            <nav class="nav col-lg-2" id="nav-menu">
+              <div class="menu w-100">
+                <div class="nav-item">
+                  <div class="logo d-flex d-none d-lg-block">
+                    <a href="index.html"><img src="img/game-logo.png" /> </a>
+                    <div class="text">
+                      <a href="index.html">
+                        <h1>GAME</h1>
+                      </a>
+                      <a href="index.html">
+                        <h3>NETWORK</h3>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="play d-flex">
+                    <a href="vedio.html" class="play-btn">Play </a>
+                    <a href="#">
+                      <div class="icon">
+                        <div class="box0"></div>
+                        <div class="box1"><img src="img/bg-1.png" /></div>
+                        <div class="box2"><img src="img/bg-2.png" /></div>
+                        <div class="box3"><img src="img/bg-3.png" /></div>
+                        <div class="box4"><img src="img/bg-4.png" /></div>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="menu-item">
+                    <ul class="list">
+                      <li>
+                        <a href="account2.html"><i class='bx bx-user'></i>Profile </a>
+                      </li>
+                      <li>
+                        <a href="account.html"><i class='bx bx-search'></i>Search </a>
+                      </li>
+                      <li>
+                        <a href="my-team.html"><i class='bx bx-user-plus'></i>Friends </a>
+                      </li>
+                      <li>
+                        <a href="chat.html"><i class='bx bx-message-rounded'></i>Messages </a>
+                      </li>
+                      <li>
+                        <a href="+LP.html"
+                          ><i class='bx bx-shield-alt'></i>Developments
+                        </a>
+                      </li>
+                      <li>
+                        <a href="all-match .html"><i class='bx bx-award'></i>Matches</a>
+                      </li>
+                      <li>
+                        <a href="turnir-setka.html"><i class='bx bx-cart'></i>Score</a>
+                      </li>
+                      <li>
+                        <a href="Statistics.html"
+                          ><i class='bx bx-list-ul'></i>Tasks</a
+                        >
+                      </li>
+                      <li>
+                        <a href=""><i class='bx bx-heart' ></i>Favorite</a>
+                      </li>
+                      <li>
+                        <a href="tournament.html"><i class='bx bx-trophy'></i>Tournaments</a>
+                      </li>
+                      <li>
+                        <a href="battle.html"
+                          ><i class='bx bx-cube'></i>Balance</a
+                        >
+                      </li>
+                      <li>
+                        <a href="top_gamers.html"
+                          ><i class='bx bx-store-alt'></i>suggestions</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="socil-logo">
+                    <ul class="d-flex">
+                      <li>
+                        <a href=""> <i class="fab fa-twitter"></i></a>
+                      </li>
+                      <li>
+                        <a href=""><i class="fab fa-facebook"></i></a>
+                      </li>
+                      <li>
+                        <a href=""> <i class="fab fa-behance-square"></i></a>
+                      </li>
+                      <li>
+                        <a href=""> <i class="fab fa-instagram-square"></i></a>
+                      </li>
+                      <li>
+                        <a href=""><i class="fab fa-whatsapp"></i></a>
+                      </li>
+                      <li>
+                        <a href=""> <i class="fas fa-user-tie"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="support d-none d-lg-block">
+                    <ul>
+                      <li>
+                        <a href="#"><i class="bx bx-support"></i>Help </a>
+                      </li>
+                      <li>
+                        <a href="#"
+                          ><i class='bx bx-error-circle'></i>Conditions</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#"
+                          ><i class='bx bx-notepad'></i>Confidentiality
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </header>
+          <!--===== ===================================================
+    ============================================================
+    =============================================================
+    responsive navbar end
+    ==============================================================
+    ===========================================================
+    ==============================================================
+    ====================================================== =====-->
+          <!--===== MAIN JS =====-->
+        </div>
+
+        <!-- ==================================menu function end=========================================== -->
+
+        <!-- ==================================body function start=========================================== -->
+
+        <div class="col-md-10">
+          <!-- ===============header top ============================ -->
+          <div class="row header-border">
+            <section class="header-top">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-lg-5 gx-0">
+                    <div class="search d-flex justify-content-start">
+                      <div class="logo d-flex d-lg-none d-sm-block">
+                        <a href="index.html"><img src="img/game-logo.png" /> </a>
+                        <div class="text">
+                          <a href="index.html">
+                            <h1>GAME</h1>
+                          </a>
+                          <a href="#">
+                            <h3>NETWORK</h3>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="from">
+                        <form class="d-flex justify-content-start">
+                          <button class="btn" type="submit">
+                            <i class="fas fa-search"></i>
+                          </button>
+                          <input
+                            class="form-control me-2"
+                            type="search"
+                            placeholder="Search..."
+                            aria-label="Search"
+                          />
+                        </form>
+                      </div>
+                      <div class="add-vedio d-none d-lg-block">
+                        <div class="d-flex">
+                          <a href=""><i class="bx bx-video-plus"></i> </a>
+                          <p>Add video</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-5 gx-0"></div>
+                  <div class="col-lg-2 gx-0">
+                    <div class="setting d-none d-lg-block">
+                      <div class="d-flex">
+                        <div class="logo">
+                          <ul>
+                            <li>
+                              <a href=""> <i class="bx bx-bell"></i></a>
+                            </li>
+                            <li>
+                              <a href="chat.html">
+                                <i class='bx bx-message-detail'></i>
+                                <h4>12</h4>
+                              </a>
+                            </li>
+                            <li>
+                              <a href=""><i class='bx bx-cog'></i></a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="img">
+                          <a href="Authorization.html"> <img src="img/header.gif" alt="" /></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <!-- ===============header top end============================ -->
+          <!-- ===============turnir setka============================ -->
+        <section class="turnir">
+            <div class="container-fluid">
+                <!-- ===============turnir setka left============================ -->
+                    <div class="row">
+                        <div class="col-md-9">
+                            <div class="turnir-setka-left">
+                               <!-- ===============Tournament-Grid ============================ -->
+                              <div class="Tournament-Grid">
+                                <div class="head">
+                                  <h3>Tournament Grid</h3>
+                                  <h4> Online</h4>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                       <div class="Tournament-Grid-left">
+                                        <div class="part-two">
+                                          <ul>
+                                              <li class="Tournament-Grid-active">
+                                              <div class="img">
+                                                  <img src="img/tournaments1.png" alt="">
+                                                  <h4>kings team</h4>
+                                              </div>
+                                              <div class="text">
+                                                 <h4 > 22 <i class='bx bxs-user'></i></h4>
+                                                 <h4 class="one"> 4</h4>
+                                              </div>
+                                             
+                                              </li>
+  
+                                              <li>
+                                              <div class="img">
+                                                  <img src="img/tournaments1.png" alt="">
+                                                  <h4>troy team</h4>
+                                              </div>
+                                              <div class="text">
+                                                 <h4 > 22 <i class='bx bxs-user'></i></h4>
+                                                 <h4 class="one"> 3</h4>
+                                              </div>
+                                             
+                                              </li>
+                                              <li class="Tournament-Grid-active">
+                                              <div class="img">
+                                                  <img src="img/tournaments1.png" alt="">
+                                                  <h4>troy team</h4>
+                                              </div>
+                                              <div class="text">
+                                                 <h4 > 22 <i class='bx bxs-user'></i></h4>
+                                                 <h4 class="one"> 12</h4>
+                                              </div>
+                                             
+                                              </li>
+                                              <li>
+                                              <div class="img">
+                                                  <img src="img/tournaments1.png" alt="">
+                                                  <h4>troy team</h4>
+                                              </div>
+                                              <div class="text">
+                                                 <h4 > 22 <i class='bx bxs-user'></i></h4>
+                                                 <h4 class="one"> 6</h4>
+                                              </div>
+                                             
+                                              </li>
+                                             
+                                            
+                                             
+      
+                             
+                                            
+                                          
+                                          
+                                          
+                                          </ul>
+                                         
+
+                                          <div class="row-line">
+                                            <div class="one"></div>
+                                            <div class="two"></div>
+                                          </div>
+                                      </div>
+                                        <div class="part-two">
+                                          <ul>
+                                              <li class="Tournament-Grid-active">
+                                              <div class="img">
+                                                  <img src="img/tournaments1.png" alt="">
+                                                  <h4>kings team</h4>
+                                              </div>
+                                              <div class="text">
+                                                 <h4 > 22 <i class='bx bxs-user'></i></h4>
+                                                 <h4 class="one"> 4</h4>
+                                              </div>
+                                             
+                                              </li>
+  
+                                              <li>
+                                              <div class="img">
+                                                  <img src="img/tournaments1.png" alt="">
+                                                  <h4>troy team</h4>
+                                              </div>
+                                              <div class="text">
+                                                 <h4 > 22 <i class='bx bxs-user'></i></h4>
+                                                 <h4 class="one"> 3</h4>
+                                              </div>
+                                             
+                                              </li>
+                                              <li class="Tournament-Grid-active">
+                                              <div class="img">
+                                                  <img src="img/tournaments1.png" alt="">
+                                                  <h4>troy team</h4>
+                                              </div>
+                                              <div class="text">
+                                                 <h4 > 22 <i class='bx bxs-user'></i></h4>
+                                                 <h4 class="one"> 12</h4>
+                                              </div>
+                                             
+                                              </li>
+                                              <li>
+                                              <div class="img">
+                                                  <img src="img/tournaments1.png" alt="">
+                                                  <h4>troy team</h4>
+                                              </div>
+                                              <div class="text">
+                                                 <h4 > 22 <i class='bx bxs-user'></i></h4>
+                                                 <h4 class="one"> 6</h4>
+                                              </div>
+                                             
+                                              </li>
+                                             
+                                            
+                                             
+      
+                             
+                                            
+                                          
+                                          
+                                          
+                                          </ul>
+                                         
+
+                                          <div class="row-line">
+                                            <div class="one"></div>
+                                            <div class="two"></div>
+                                          </div>
+                                      </div>
+                                      
+                                       </div>
+                                    </div>
+
+                                    <div class="col-md-4 gx-0">
+                                       <div class="Tournament-Grid-middle">
+
+
+                                          <div class=" box">
+                                            <div class="part-two">
+                                              <ul>
+                                                  <li class="Tournament-Grid-active">
+                                                  <div class="img">
+                                                      <img src="img/tournaments1.png" alt="">
+                                                      <h4>kings team</h4>
+                                                  </div>
+                                                  <div class="text">
+                                                     <h4 > 22 <i class='bx bxs-user'></i></h4>
+                                                     <h4 class="one"> 4</h4>
+                                                  </div>
+                                                 
+                                                  </li>
+      
+                                         
+                                              
+                                                  <li>
+                                                  <div class="img">
+                                                      <img src="img/tournaments1.png" alt="">
+                                                      <h4>troy team</h4>
+                                                  </div>
+                                                  <div class="text">
+                                                     <h4 > 22 <i class='bx bxs-user'></i></h4>
+                                                     <h4 class="one"> 6</h4>
+                                                  </div>
+                                                 
+                                                  </li>
+                                                 
+                                                
+                                                 
+          
+                                 
+                                                
+                                              
+                                              
+                                              
+                                              </ul>
+                                             
+    
+                                           
+                                          </div>
+                                            <div class="part-two">
+                                              <ul>
+                                                  <li class="Tournament-Grid-active">
+                                                  <div class="img">
+                                                      <img src="img/tournaments1.png" alt="">
+                                                      <h4>kings team</h4>
+                                                  </div>
+                                                  <div class="text">
+                                                     <h4 > 22 <i class='bx bxs-user'></i></h4>
+                                                     <h4 class="one"> 4</h4>
+                                                  </div>
+                                                 
+                                                  </li>
+      
+                                         
+                                              
+                                                  <li>
+                                                  <div class="img">
+                                                      <img src="img/tournaments1.png" alt="">
+                                                      <h4>troy team</h4>
+                                                  </div>
+                                                  <div class="text">
+                                                     <h4 > 22 <i class='bx bxs-user'></i></h4>
+                                                     <h4 class="one"> 6</h4>
+                                                  </div>
+                                                 
+                                                  </li>
+                                                 
+                                                
+                                                 
+          
+                                 
+                                                
+                                              
+                                              
+                                              
+                                              </ul>
+                                             
+    
+                                           
+                                          </div>
+                                          </div>
+
+
+                                          <div class="row-line">
+                                            <div class="one"></div>
+                                            <div class="two"></div>
+                                          </div>
+                                     
+                                       </div>
+
+                                       
+                                     
+                                    </div>
+                                    <div class="col-md-4">
+                                       <div class="Tournament-Grid-right">
+                                        <div class="part-two">
+                                          <ul>
+                                           
+  
+                                              <li>
+                                              <div class="img">
+                                                  <img src="img/tournaments1.png" alt="">
+                                                  <h4>troy team</h4>
+                                              </div>
+                                              <div class="text">
+                                                 <h4 > 22 <i class='bx bxs-user'></i></h4>
+                                                 <h4 class="one"> 3</h4>
+                                              </div>
+                                             
+                                              </li>
+                                            
+                                              <li>
+                                              <div class="img">
+                                                  <img src="img/tournaments1.png" alt="">
+                                                  <h4>troy team</h4>
+                                              </div>
+                                              <div class="text">
+                                                 <h4 > 22 <i class='bx bxs-user'></i></h4>
+                                                 <h4 class="one"> 6</h4>
+                                              </div>
+                                             
+                                              </li>
+                                             
+                                            
+                                             
+      
+                             
+                                            
+                                          
+                                          
+                                          
+                                          </ul>
+                                         
+
+                                      </div>
+                                    
+                                       </div>
+                                    </div>
+                                </div>
+
+                                <div class="Tournament-Grid-img">
+                                  <img src="img/avtorization.png" alt="#" class="img-fluid">
+                                </div>
+                              </div>
+                               <!-- ===============Tournament-Grid  end============================ -->
+                               <!-- ===============Tournament-Record============================ -->
+
+                              <div class="Tournament-Record">
+
+
+                                <div class="row">
+                                  <div class="col-md-9">
+                                    <div class="head">
+                                      <h2>Tournament Record</h2>
+                                    </div>
+                                    <div class="row">
+                                      <div class="col-md-6">
+                                        <div class="box">
+                                          <h4>for the last month</h4>
+
+                                          <div class="number">
+                                            <ul>
+                                              <li><p>7</p></li>
+                                              <li><p>4</p></li>
+                                              <li><p>6</p></li>
+                                              <li><p>2</p></li>
+                                              <li><p>0</p></li>
+                                            </ul>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-6">
+                                        <div class="box">
+                                          <h4>for the last month</h4>
+
+                                          <div class="number">
+                                            <ul>
+                                              <li><p>7</p></li>
+                                              <li><p>4</p></li>
+                                              <li><p>6</p></li>
+                                              <li><p>2</p></li>
+                                              <li><p>0</p></li>
+                                            </ul>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-3">
+                                    <div class="img">
+                                           <img src="img/+-LPgame2.png" alt="">
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="Tournament-Record-bg">
+                                  <img src="img/cha-bgt.png" alt="">
+                                </div>
+                            
+                              </div>
+                               <!-- ===============Tournament-Record============================ -->
+      
+                            </div>
+                    </div>
+                          <!-- ===============turnir setka left end============================ -->
+      
+      
+                    <div class="col-md-3">
+                      <div class="turnir-setka-right">
+                            <div class="final-battle">
+                                <h2>Final Battle</h2>
+                                <h5>the best players of the tournament</h5>
+                              <div class="middle">
+                                  <div class="box">
+                                    <div class="row">
+                                      <div class="col-md-5">
+                                        <div class="one">
+                                          <div class="dot-one">
+                                            <div class="dot-two">
+                                              <div class="dot-three">
+                                                <img src="img/tournaments1.png" alt="" />
+                                              </div>
+                                            </div>
+                                          </div>
+              
+                                          <h3>Kings</h3>
+                                          <h4>1 iteam</h4>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-2">
+                                        <div class="two">
+                                        
+                                          <h3>0:2</h3>
+                                          <h4>1 iteams</h4>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-5">
+                                        <div class="three">
+                                          <div class="dot-one">
+                                            <div class="dot-two">
+                                              <div class="dot-three">
+                                                <img src="img/tournaments1.png" alt="" />
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <h3>Kings</h3>
+                                          <h4>1 iteam</h4>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+              
+                                  <div class="timeline">
+                                    <div class="part-one">
+                                      <div class="row-line">
+                                        <div class="row-one">
+                                          <div class="dot"></div>
+                                        </div>
+                                      </div>
+                                      <h3>Time</h3>
+                                   
+                                    </div>
+                                    <div class="part-two">
+                                        <a href="#" class="over"> Go Over</a>
+                                    </div>
+              
+              
+                                
+                                  </div>
+                                </div>
+                            </div>
+
+
+
+
+
+
+                            <div class="group-section-one">
+                                <div class="heading">
+                                   <div class="banner-slider-team">
+                                       <div class="banner-item bg-3">
+                                          <h2>Group A</h2>
+                                       </div>
+                                       <div class="banner-item bg-3">
+                                           <h2>Group B</h2>
+                                       </div>
+                                       <div class="banner-item bg-3">
+                                           <h2>Group C</h2>
+                                       </div>
+                                       <div class="banner-item bg-3">
+                                           <h2>Group D</h2>
+                                       </div>
+                                    
+                                
+                                     </div>
+                                     <h3>the best players of the tournament</h3>
+                                </div>
+    
+                                <div class="scroll">
+                                    <div class="part-two">
+                                        <ul>
+                                            <li>
+                                            <div class="img">
+                                                <img src="img/tournaments1.png" alt="">
+                                                <h4>troy team</h4>
+                                            </div>
+                                            <div class="text">
+                                               <h4 > 22 <i class='bx bxs-user'></i></h4>
+                                               <h4 class="one"> 1</h4>
+                                            </div>
+                                           
+                                            </li>
+
+                                            <li>
+                                            <div class="img">
+                                                <img src="img/tournaments1.png" alt="">
+                                                <h4>troy team</h4>
+                                            </div>
+                                            <div class="text">
+                                               <h4 > 22 <i class='bx bxs-user'></i></h4>
+                                               <h4 class="one"> 1</h4>
+                                            </div>
+                                           
+                                            </li>
+                                            <li>
+                                            <div class="img">
+                                                <img src="img/tournaments1.png" alt="">
+                                                <h4>troy team</h4>
+                                            </div>
+                                            <div class="text">
+                                               <h4 > 22 <i class='bx bxs-user'></i></h4>
+                                               <h4 class="one"> 1</h4>
+                                            </div>
+                                           
+                                            </li>
+                                            <li>
+                                            <div class="img">
+                                                <img src="img/tournaments1.png" alt="">
+                                                <h4>troy team</h4>
+                                            </div>
+                                            <div class="text">
+                                               <h4 > 22 <i class='bx bxs-user'></i></h4>
+                                               <h4 class="one"> 1</h4>
+                                            </div>
+                                           
+                                            </li>
+                                           
+                                          
+                                           
+    
+                           
+                                          
+                                        
+                                        
+                                        
+                                        </ul>
+                                    </div>
+                                   
+                                   </div>
+    
+    
+    
+                            </div>
+
+
+
+
+
+
+
+
+                      </div>
+                    </div>
+                    </div>
+            </div>
+
+        </section>
+          <!-- ===============turnir setka end============================ -->
+
+
+
+     
+       
+            
+
+
+
+      
+       
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+        <!-- ==================================body function end=========================================== -->
+      </div>
+    </div>
+
+    <!-- ==================================body start=========================================== -->
+
+    <!-- ==================================footer=========================================== -->
+
+    <section class="footer">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6 col-sm-6">
+            <div class="side-one">
+              <ul>
+                <li><a href="">About us </a></li>
+                <li><a href="">Terms </a></li>
+                <li><a href="">Conditions</a></li>
+                <li><a href="">Privacy </a></li>
+                <li><a href=""> Press </a></li>
+                <li><a href=""> Help </a></li>
+                <li><a href="">Affiliates </a></li>
+                <li><a href="">Advertisers </a></li>
+              </ul>
+              <p>(C)Copyrighte 2020</p>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-6">
+            <div class="side-two">
+              <div class="socil-logo">
+                <ul class="d-flex">
+                  <li>
+                    <a href=""> <i class="fab fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fab fa-facebook"></i></a>
+                  </li>
+
+                  <li>
+                    <a href=""> <i class="fab fa-instagram-square"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fab fa-whatsapp"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <a href="#" class="invite">To invite a friend </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================================footer end=========================================== -->
+   
+  <script src="https://vjs.zencdn.net/7.18.1/video.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/scrollreveal.js"></script>
+    <script src="js/jquery.syotimer.min.js"></script>
+     
+    <script src="js/custom.js"></script>
+
+  </body>
+</html>

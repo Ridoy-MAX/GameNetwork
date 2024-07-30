@@ -1,0 +1,377 @@
+.touenament {
+  position: relative;
+  height: 400px;
+  margin-top: 30px;
+}
+.touenament .part-two {
+  display: flex;
+  justify-content: end;
+  height: 324px;
+  align-items: flex-end;
+}
+.touenament .part-two .pepole {
+  height: 40px;
+  bottom: 0;
+}
+.touenament .part-two .pepole ul {
+  display: flex;
+}
+.touenament .part-two .pepole ul .one {
+  width: 30px;
+  height: 30px;
+  margin-left: 80px;
+}
+.touenament .part-two .pepole ul .two {
+  position: relative;
+  left: -6px;
+  width: 35px;
+  height: 35px;
+}
+.touenament .part-two .pepole ul .three {
+  position: relative;
+  left: -19px;
+  width: 35px;
+  height: 35px;
+}
+.touenament .part-two .pepole ul .four {
+  position: relative;
+  left: -30px;
+  width: 35px;
+  height: 35px;
+}
+.touenament .part-two .pepole ul .five {
+  position: relative;
+  left: -39px;
+  width: 35px;
+  height: 35px;
+  background-color: #f16621;
+  border: 3px solid #27272f;
+  border-radius: 100px;
+  font-family: "aven-bold";
+  font-size: 12px;
+  color: white;
+  align-items: center;
+  text-align: center;
+  line-height: 29px;
+}
+.touenament .part-one {
+  margin-left: 75px;
+}
+.touenament .part-one .text h2 {
+  width: 90px;
+  color: #8c93ab;
+  font-size: 14px;
+  font-family: "aven-bold";
+  margin-left: 127px;
+  margin-top: 89px;
+  border-radius: 25px;
+  padding: 5px 13px;
+  background-color: rgba(240, 248, 255, 0.192);
+}
+.touenament .part-one .img {
+  display: flex;
+}
+.touenament .part-one .img .img-one .man .two {
+  position: absolute;
+  left: 107px;
+  top: 135px;
+}
+.touenament .part-one .img .img-one .man .num h4 {
+  color: white;
+  font-size: 12px;
+  position: relative;
+  bottom: 100px;
+  left: 0px;
+  width: 35px;
+  height: 35px;
+  background-color: #f16621;
+  border: 4px solid #27272f;
+  border-radius: 100px;
+  text-align: center;
+  line-height: 27px;
+}
+.touenament .part-one .img .img-one h3 {
+  color: #f16621;
+  font-size: 16px;
+  font-family: "aven-reg";
+  position: relative;
+  top: -14px !important;
+  left: 10px;
+}
+.touenament .part-one .img .img-two img {
+  margin-left: 20px;
+}
+.touenament .bg {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  height: 300px;
+}
+
+.touenament-details {
+  margin-top: 30px;
+}
+.touenament-details .iron {
+  position: relative;
+  margin-top: 10px;
+  padding-bottom: 100px;
+}
+.touenament-details .iron .bg2 {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+.touenament-details .iron .bg2 img {
+  width: 100%;
+}
+.touenament-details .iron .deatils .sub .text h4 {
+  font-family: "aven-reg";
+  color: #d4d4d4;
+  font-size: 14px;
+  text-align: center;
+}
+.touenament-details .iron .deatils .sub .pepole {
+  height: 40px;
+  bottom: 0;
+}
+.touenament-details .iron .deatils .sub .pepole ul {
+  display: flex;
+}
+.touenament-details .iron .deatils .sub .pepole ul .one {
+  width: 30px;
+  height: 30px;
+  margin-left: 125px;
+}
+.touenament-details .iron .deatils .sub .pepole ul .two {
+  position: relative;
+  left: -6px;
+  width: 35px;
+  height: 35px;
+}
+.touenament-details .iron .deatils .sub .pepole ul .three {
+  position: relative;
+  left: -19px;
+  width: 35px;
+  height: 35px;
+}
+.touenament-details .iron .deatils .sub .pepole ul .four {
+  position: relative;
+  left: -30px;
+  width: 35px;
+  height: 35px;
+}
+.touenament-details .iron .deatils .sub .pepole ul .five {
+  position: relative;
+  left: -39px;
+  width: 35px;
+  height: 35px;
+  background-color: #f16621;
+  border: 3px solid #27272f;
+  border-radius: 100px;
+  font-family: "aven-bold";
+  font-size: 12px;
+  color: white;
+  align-items: center;
+  text-align: center;
+  line-height: 29px;
+}
+.touenament-details .iron .deatils p {
+  font-family: "aven-reg";
+  color: #d4d4d4;
+  font-size: 14px;
+  text-align: center;
+  padding: 5px 44px;
+}
+.touenament-details .iron .img-two {
+  display: flex;
+  justify-content: center;
+}
+.touenament-details .iron .img-one {
+  display: flex;
+  justify-content: center;
+}
+.touenament-details .iron .img-one .man {
+  position: relative;
+  margin-top: 50px;
+}
+.touenament-details .iron .img-one .man .one {
+  position: relative;
+  top: 0;
+}
+.touenament-details .iron .img-one .man .two {
+  position: absolute;
+  top: 10px;
+  left: 8px;
+}
+.touenament-details .iron .img-one .man .num h4 {
+  color: white;
+  font-size: 12px;
+  position: relative;
+  bottom: 100px;
+  left: 0px;
+  width: 35px;
+  height: 35px;
+  background-color: #f16621;
+  border: 4px solid #27272f;
+  border-radius: 100px;
+  text-align: center;
+  line-height: 27px;
+}
+.touenament-details .headshot {
+  margin-top: 35px;
+}
+.touenament-details .headshot .bg-1 {
+  height: 90px;
+  background-color: #27272f;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.touenament-details .headshot .bg-1:hover {
+  background-color: #f16621;
+}
+.touenament-details .headshot .bg-1:hover .part-one .deatils ul .three h3 {
+  font-size: 16px;
+  color: #ffffff;
+  font-family: "aven-mid";
+}
+.touenament-details .headshot .bg-1:hover .part-two .deatils ul .four h3 {
+  font-size: 16px;
+  color: #ffffff;
+  font-family: "aven-mid";
+  border: 2px solid #ffffff;
+}
+.touenament-details .headshot .bg-2 {
+  height: 90px;
+  background-color: #32323a;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.158);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.144);
+  transition: 0.4s;
+}
+.touenament-details .headshot .bg-2:hover {
+  background-color: #f16621;
+}
+.touenament-details .headshot .bg-2:hover .part-one .deatils ul .three h3 {
+  font-size: 16px;
+  color: #ffffff;
+  font-family: "aven-mid";
+}
+.touenament-details .headshot .bg-2:hover .part-two .deatils ul .four h3 {
+  font-size: 16px;
+  color: #ffffff;
+  font-family: "aven-mid";
+  border: 2px solid #ffffff;
+}
+.touenament-details .headshot .part-two .deatils ul {
+  display: flex;
+  align-items: center;
+}
+.touenament-details .headshot .part-two .deatils ul .one h3 {
+  font-size: 14px;
+  color: #a8a8a8;
+  font-family: "aven-bold";
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.219);
+}
+.touenament-details .headshot .part-two .deatils ul .two h3 {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 16px;
+  color: white;
+  font-family: "aven-bold";
+}
+.touenament-details .headshot .part-two .deatils ul .two h3 span {
+  font-size: 12px;
+  color: #f16621;
+  font-family: "aven-bold";
+}
+.touenament-details .headshot .part-two .deatils ul .three h3 {
+  font-size: 14px;
+  color: #a8a8a8;
+  font-family: "aven-bold";
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.219);
+}
+.touenament-details .headshot .part-two .deatils ul .four h3 {
+  margin-left: 30px;
+  font-size: 16px;
+  color: #f16621;
+  font-family: "aven-mid";
+  padding: 5px 10px;
+  border: 2px solid #f16621;
+  border-radius: 5px;
+}
+.touenament-details .headshot .part-one {
+  display: flex;
+  align-items: center;
+}
+.touenament-details .headshot .part-one .img {
+  height: 50px;
+  width: 50px;
+  background-color: #f16621;
+  border-radius: 100px;
+}
+.touenament-details .headshot .part-one .img img {
+  position: relative;
+  left: -3px;
+  top: -3px;
+  height: 50px;
+  width: 50px;
+}
+.touenament-details .headshot .part-one .deatils ul {
+  display: flex;
+}
+.touenament-details .headshot .part-one .deatils ul .one {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.touenament-details .headshot .part-one .deatils ul .one h3 {
+  font-size: 16px;
+  color: white;
+  font-family: "aven-mid";
+}
+.touenament-details .headshot .part-one .deatils ul .two {
+  margin-right: 56px;
+}
+.touenament-details .headshot .part-one .deatils ul .two h3 {
+  position: relative;
+  bottom: 3px;
+  font-size: 16px;
+  color: white;
+  font-family: "aven-mid";
+  padding: 5px 10px;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0.219);
+}
+.touenament-details .headshot .part-one .deatils ul .two h3 i {
+  font-size: 16px;
+  color: #f16621;
+}
+.touenament-details .headshot .part-one .deatils ul .three {
+  margin-right: 22px;
+}
+.touenament-details .headshot .part-one .deatils ul .three h3 {
+  border-right: 1px solid rgba(189, 189, 189, 0.295);
+  font-size: 16px;
+  color: #f16621;
+  font-family: "aven-mid";
+  padding-right: 25px;
+}
+.touenament-details .headshot .part-one .deatils ul .four h3 {
+  font-size: 16px;
+  color: #00ff60;
+  font-family: "aven-mid";
+  padding: 0px 10px;
+  border-radius: 25px;
+}
+.touenament-details .headshot .part-one .deatils ul .four h3 i {
+  font-size: 14px;
+  color: #00ff60;
+}
+
+/*# sourceMappingURL=tournament.css.map */

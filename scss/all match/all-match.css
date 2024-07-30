@@ -1,0 +1,491 @@
+/*==========
+all matchs start
+==============*/
+.all-matchs {
+  position: relative;
+}
+.all-matchs .bg {
+  position: absolute;
+  opacity: 0.2;
+  z-index: -9;
+}
+.all-matchs .heading {
+  padding: 0 20px;
+}
+.all-matchs .heading h2 {
+  font-size: 30px;
+  font-family: "aven-bold";
+  color: #cacacc;
+  margin-top: 35px;
+}
+.all-matchs .shorting {
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.all-matchs .shorting .part-two ul {
+  display: flex;
+}
+.all-matchs .shorting .part-two ul li {
+  margin-right: 8px;
+}
+.all-matchs .shorting .part-two ul li .by {
+  background-color: rgba(255, 255, 255, 0);
+}
+.all-matchs .shorting .part-two ul li .by:hover {
+  background-color: rgba(244, 114, 27, 0);
+}
+.all-matchs .shorting .part-two ul li a {
+  font-family: "aven-reg";
+  font-size: 14px;
+  color: white;
+  padding: 7px 16px;
+  border-radius: 19px;
+  background-color: rgba(255, 255, 255, 0.39);
+  transition: 0.3s;
+}
+.all-matchs .shorting .part-two ul li a:hover {
+  background-color: #f4701b;
+}
+.all-matchs .shorting .part-one {
+  display: flex;
+}
+.all-matchs .shorting .part-one .two {
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  padding: 7px 10px;
+  border: 2px solid orangered;
+  cursor: pointer;
+}
+.all-matchs .shorting .part-one .two h4 {
+  font-size: 14px;
+  color: white;
+  font-family: "aven-reg";
+  margin-bottom: 0;
+}
+.all-matchs .shorting .part-one .two i {
+  font-size: 14px;
+  color: white;
+}
+.all-matchs .shorting .part-one .one {
+  margin-right: 10px;
+}
+.all-matchs .shorting .part-one .one .form-select {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+  -moz-padding-start: calc(0.75rem - 3px);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #e4e4e4;
+  background-color: rgba(255, 255, 255, 0.096);
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 16px 12px;
+  border: 1px solid #ced4da00;
+  border-radius: 25px;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.Best-palyer1 .banner-slider3 .previous-arrow {
+  position: absolute;
+  top: 550px;
+  right: 75px;
+  z-index: 1111111;
+  color: #ffffff;
+  font-size: 11px;
+  padding: 9px 11px;
+  transition: 0.3s;
+  cursor: pointer;
+  border-radius: 100px;
+  background-color: #f0f0f02c !important;
+}
+
+.Best-palyer1 .banner-slider3 .next-arrow {
+  position: absolute;
+  top: 550px;
+  right: 24px;
+  z-index: 1111111;
+  color: #ffffff;
+  font-size: 11px;
+  padding: 9px 11px;
+  transition: 0.3s;
+  cursor: pointer;
+  border-radius: 100px;
+  background-color: #f0f0f02c !important;
+}
+
+.Best-palyer1 {
+  position: relative;
+}
+.Best-palyer1 .matchs {
+  margin-top: 60px;
+}
+.Best-palyer1 .matchs .banner-slider3 .banner-item {
+  width: 350px;
+  margin: 12px;
+}
+.Best-palyer1 .matchs .banner-slider3 .banner-item .player-one {
+  border-radius: 15px;
+}
+.Best-palyer1 .matchs .banner-slider3 .banner-item .player-one .one-bg {
+  background: linear-gradient(90deg, #060552 0%, #090979 0%, #0470bd 0%, #0386cb 0%, #0296d5 0%, #49a8ca 0%, #7381d2 100%, #00d4ff 100%);
+}
+.Best-palyer1 .matchs .banner-slider3 .banner-item .player-one .sub {
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+  padding: 5px 10px;
+  background-color: #32323a;
+  display: flex;
+  height: 48px;
+  justify-content: space-between;
+}
+.Best-palyer1 .matchs .banner-slider3 .banner-item .player-one .sub .pepole {
+  height: 40px;
+}
+.Best-palyer1 .matchs .banner-slider3 .banner-item .player-one .sub .pepole ul {
+  display: flex;
+}
+.Best-palyer1 .matchs .banner-slider3 .banner-item .player-one .sub .pepole ul .one {
+  width: 30px;
+  height: 30px;
+  margin-left: 80px;
+}
+.Best-palyer1 .matchs .banner-slider3 .banner-item .player-one .sub .pepole ul .two {
+  position: relative;
+  left: -6px;
+  width: 35px;
+  height: 35px;
+}
+.Best-palyer1 .matchs .banner-slider3 .banner-item .player-one .sub .pepole ul .three {
+  position: relative;
+  left: -19px;
+  width: 35px;
+  height: 35px;
+}
+.Best-palyer1 .matchs .banner-slider3 .banner-item .player-one .sub .pepole ul .four {
+  position: relative;
+  left: -30px;
+  width: 35px;
+  height: 35px;
+}
+.Best-palyer1 .matchs .banner-slider3 .banner-item .player-one .sub .pepole ul .five {
+  position: relative;
+  left: -39px;
+  width: 35px;
+  height: 35px;
+  background-color: #f16621;
+  border: 3px solid #27272f;
+  border-radius: 100px;
+  font-family: "aven-bold";
+  font-size: 12px;
+  color: white;
+  align-items: center;
+  text-align: center;
+  line-height: 29px;
+}
+.Best-palyer1 .matchs .banner-slider3 .banner-item .player-one .sub .text {
+  height: 40px;
+  align-items: center;
+}
+.Best-palyer1 .matchs .banner-slider3 .banner-item .player-one .sub .text h4 {
+  width: 125px;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #6c6c7b;
+  font-family: "aven-reg";
+}
+.Best-palyer1 .matchs .banner-slider3 .banner-item .player-one .details-bg {
+  padding: 10px 16px;
+  background-color: #27272f;
+}
+.Best-palyer1 .matchs .banner-slider3 .banner-item .player-one .details-bg .two {
+  justify-content: space-between;
+}
+.Best-palyer1 .matchs .banner-slider3 .banner-item .player-one .details-bg .two h4 {
+  font-size: 16px;
+  color: #c7c7c7;
+  font-family: "aven-bold";
+}
+.Best-palyer1 .matchs .banner-slider3 .banner-item .player-one .details-bg .two h4 span {
+  font-size: 12px;
+  color: #fb8c08;
+}
+.Best-palyer1 .matchs .banner-slider3 .banner-item .player-one .details-bg .two h5 {
+  font-size: 14px;
+  color: #c7c7c7;
+  font-family: "aven-reg";
+}
+.Best-palyer1 .matchs .banner-slider3 .banner-item .player-one .details-bg .two h5 span {
+  font-size: 16px;
+  color: #fb8c08;
+}
+.Best-palyer1 .matchs .banner-slider3 .banner-item .player-one .details-bg .three img {
+  width: 23px;
+  height: 23px;
+}
+.Best-palyer1 .matchs .banner-slider3 .banner-item .player-one .details-bg .three h3 {
+  margin-left: 5px;
+  margin-bottom: 0;
+  font-size: 20px;
+  color: #f0f0f0;
+  font-family: "aven-bold";
+}
+.Best-palyer1 .matchs .banner-slider3 .banner-item .player-one .details-bg h5 {
+  font-size: 14px;
+  color: #fb8c08;
+  font-family: "aven-reg";
+}
+.Best-palyer1 .matchs .banner-slider3 .banner-item .player-one .details-bg .one {
+  justify-content: space-between;
+}
+.Best-palyer1 .matchs .banner-slider3 .banner-item .player-one .details-bg .one h2 {
+  font-size: 13px;
+  color: #6c6c7b;
+  font-family: "aven-light";
+}
+.Best-palyer1 .matchs .banner-slider3 .banner-item .player-one .details-bg .one i {
+  font-size: 22px;
+  color: #6c6c7b;
+  margin-left: 35px;
+}
+.Best-palyer1 .matchs .banner-slider3 .banner-item .player-one .img {
+  position: relative;
+  height: 310px;
+  overflow: hidden;
+}
+.Best-palyer1 .matchs .banner-slider3 .banner-item .player-one .img img {
+  position: absolute;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+}
+.Best-palyer1 .matchs .banner-slider3 .banner-item .player-one .img .over {
+  border-radius: 8px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 22px;
+  background: #060552;
+  background: linear-gradient(90deg, #060552 0%, #090979 0%, #0470bd 0%, #0386cb 0%, #0296d5 0%, #46d783 0%, #1db034 100%, #7381d2 100%);
+}
+.Best-palyer1 .matchs .banner-slider3 .banner-item .player-one .img h4 {
+  position: absolute;
+  bottom: 0px;
+  font-size: 22px;
+  color: #e4e4e4;
+  margin-left: 10px;
+  z-index: 99999;
+}
+.Best-palyer1 .matchs .banner-slider3 .banner-item .player-two {
+  margin-top: 30px;
+  border-radius: 7px;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  background: #060552;
+  background: linear-gradient(90deg, #060552 0%, #090979 0%, #0470bd 0%, #0386cb 0%, #0296d5 0%, #49a8ca 0%, #7381d2 100%, #00d4ff 100%);
+}
+.Best-palyer1 .matchs .banner-slider3 .banner-item .player-two .logo img {
+  width: 50px;
+}
+.Best-palyer1 .matchs .banner-slider3 .banner-item .player-two .text h2 {
+  font-size: 15px;
+  color: white;
+  background-color: none;
+  margin-bottom: 10px;
+  font-family: "aven-bold";
+}
+.Best-palyer1 .matchs .banner-slider3 .banner-item .player-two .text h2 span {
+  position: relative;
+  top: 10px;
+  font-size: 30px;
+  color: white;
+  font-family: "aven-bold";
+  background-color: rgba(255, 255, 255, 0.384);
+  border-radius: 7px;
+  padding: 5px;
+}
+
+/*==========
+all matchs end
+==============*/
+/*==========
+ Upcoming tournaments start
+==============*/
+.Upcoming-tournaments {
+  margin-bottom: 70px;
+  position: relative;
+  border-radius: 8px;
+}
+.Upcoming-tournaments .heading {
+  font-size: 30px;
+  font-family: "aven-bold";
+  color: #cacacc;
+  margin-top: 35px;
+}
+.Upcoming-tournaments .banner-match {
+  margin: 0 16px;
+  height: 305px;
+  border-radius: 8px;
+  background-color: #f16621ce;
+  height: 300px;
+}
+.Upcoming-tournaments .banner-match .image img {
+  position: absolute;
+  z-index: -1;
+  height: 300px !important;
+}
+.Upcoming-tournaments .banner-match .text .details-bg {
+  padding: 10px 16px;
+}
+.Upcoming-tournaments .banner-match .text .details-bg .two {
+  margin-top: 30px;
+}
+.Upcoming-tournaments .banner-match .text .details-bg .two h4 {
+  font-size: 20px;
+  color: #c7c7c7;
+  font-family: "aven-bold";
+  margin-left: 30px;
+  padding: 7px 16px;
+  background-color: rgba(255, 255, 255, 0.267);
+  border-radius: 25px;
+}
+.Upcoming-tournaments .banner-match .text .details-bg .two h4 span {
+  font-size: 12px;
+  color: #363636;
+}
+.Upcoming-tournaments .banner-match .text .details-bg .two h2 {
+  font-size: 20px;
+  color: #c7c7c7;
+  font-family: "aven-bold";
+  margin-left: 30px;
+  padding: 7px 16px;
+  background-color: rgba(255, 255, 255, 0.267);
+  border-radius: 25px;
+}
+.Upcoming-tournaments .banner-match .text .details-bg .two h2 span {
+  color: #363636;
+}
+.Upcoming-tournaments .banner-match .text .details-bg .three {
+  margin-top: 15px;
+}
+.Upcoming-tournaments .banner-match .text .details-bg .three img {
+  width: 23px;
+  height: 23px;
+}
+.Upcoming-tournaments .banner-match .text .details-bg .three h3 {
+  margin-left: 5px;
+  margin-bottom: 0;
+  font-size: 20px;
+  color: #f0f0f0;
+  font-family: "aven-bold";
+}
+.Upcoming-tournaments .banner-match .text .details-bg h5 {
+  font-size: 17px;
+  color: #e0e0e0;
+  font-family: "aven-reg";
+  margin-top: 15px;
+}
+.Upcoming-tournaments .banner-match .text .details-bg .one {
+  justify-content: space-between;
+}
+.Upcoming-tournaments .banner-match .text .details-bg .one h2 {
+  font-size: 17px;
+  color: #c7c7c7;
+  font-family: "aven-reg";
+}
+.Upcoming-tournaments .banner-match .text .sub {
+  margin-top: 50px;
+  padding: 5px 10px;
+  display: flex;
+  height: 48px;
+  justify-content: space-between;
+}
+.Upcoming-tournaments .banner-match .text .sub .pepole {
+  height: 40px;
+}
+.Upcoming-tournaments .banner-match .text .sub .pepole ul {
+  display: flex;
+}
+.Upcoming-tournaments .banner-match .text .sub .pepole ul .one {
+  width: 30px;
+  height: 30px;
+  margin-left: 80px;
+}
+.Upcoming-tournaments .banner-match .text .sub .pepole ul .two {
+  position: relative;
+  left: -6px;
+  width: 35px;
+  height: 35px;
+}
+.Upcoming-tournaments .banner-match .text .sub .pepole ul .three {
+  position: relative;
+  left: -19px;
+  width: 35px;
+  height: 35px;
+}
+.Upcoming-tournaments .banner-match .text .sub .pepole ul .four {
+  position: relative;
+  left: -30px;
+  width: 35px;
+  height: 35px;
+}
+.Upcoming-tournaments .banner-match .text .sub .pepole ul .five {
+  position: relative;
+  left: -39px;
+  width: 35px;
+  height: 35px;
+  background-color: #f16621;
+  border: 3px solid #27272f;
+  border-radius: 100px;
+  font-family: "aven-bold";
+  font-size: 12px;
+  color: white;
+  align-items: center;
+  text-align: center;
+  line-height: 29px;
+}
+.Upcoming-tournaments .banner-match .text .sub .text {
+  height: 40px;
+  align-items: center;
+}
+.Upcoming-tournaments .banner-match .text .sub .text h4 {
+  width: 150px;
+  margin-top: 10px;
+  font-size: 17px;
+  color: #a7a7a7;
+  font-family: "aven-reg";
+}
+.Upcoming-tournaments .banner-match .match-logo {
+  height: 300px !important;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.267);
+}
+.Upcoming-tournaments .banner-match .match-logo .img-logo {
+  display: flex;
+  justify-content: center;
+}
+.Upcoming-tournaments .banner-match .match-logo .img-logo img {
+  margin-right: 30px;
+  margin-top: 30px;
+}
+.Upcoming-tournaments .banner-match .match-logo .img {
+  display: flex;
+  justify-content: center;
+}
+.Upcoming-tournaments .banner-match .match-logo .img img {
+  margin-top: 30px;
+}
+
+/*==========
+ Upcoming tournaments end
+==============*/
+
+/*# sourceMappingURL=all-match.css.map */

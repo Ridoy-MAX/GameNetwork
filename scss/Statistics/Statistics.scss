@@ -1,0 +1,604 @@
+// Statistics banner====================
+.Statistics-banner{
+    position: relative;
+    .text{
+        h2{
+            font-size: 67px;
+            color: white;
+            font-family:'aven-mid' ;
+          padding-top: 165px;
+        }
+    }
+    .Statistics-banner-img{
+        position: absolute;
+        top: 0;
+        z-index: -1;
+        img{
+
+        }
+    }
+}
+
+
+
+
+// Statistics-section-one================
+.Statistics-section-one{
+    .details{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        background-color: #27272F;
+        .first-chart{
+            height: 310px;
+            background-color: #27272f;
+            border-radius: 7px;
+        }
+        .one{
+            margin-left: 20px;
+            margin-bottom: 15px;
+            padding-top: 20px;
+          h3{
+            color: white;
+            font-family:'aven-mid' ;
+            font-size: 16px;
+            text-transform: uppercase;
+          }
+        }
+        .two{
+            margin-left: 30px;
+            margin-bottom: 15px;
+            padding-top: 20px;
+            ul{
+                display: flex;
+                li{
+                    margin-right: 15px;
+                    a{
+                        color: white;
+                        font-family:'aven-mid' ;
+                        font-size: 13px;
+                        padding: 5px 13px;
+                        border: 1px solid rgba(255, 255, 255, 0.301);
+                        border-radius: 4px;
+                        &:hover{
+                            background-color: #f4830c;
+                            border: 1px solid #f4830c;
+
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+    .part-one{
+        background-color: #27272F;
+        padding: 0 20px;
+        border-radius: 7px;
+    
+        .details{
+          padding-top: 11px;
+            display: flex;
+            justify-content: space-between;
+          
+            .two{
+                margin-left: 0 !important;
+                margin-bottom: 2px !important;
+                ul{
+                    display: flex;
+                    justify-content: space-around;
+                    li{
+                        margin-right: 6px;
+                        a{
+                            color: white;
+                            font-family:'aven-mid' ;
+                            font-size: 13px;
+                            padding: 8px 25px;
+                            border: 1px solid rgba(255, 255, 255, 0);
+                            border-radius: 25px;
+                            background-color: #35353e;
+                            transition: 0.3s;
+                            &:hover{
+                                background-color: #f4830c;
+                                border: 1px solid #f4830c;
+
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+        .details2{
+            display: flex;
+            justify-content: space-between;
+      
+         
+                ul{
+                    display: flex;
+                    margin-top: 50px;
+                    justify-content: space-around;
+                    width: 100%;
+                    li{
+                
+                        p{
+                            color: #505055;
+                            font-family:'aven-mid' ;
+                            font-size: 13px;
+                            padding: 5px 2px;
+                           
+                            border-radius: 4px;
+                            &:hover{
+                                background-color: #f4830c;
+                                border: 1px solid #f4830c;
+
+                            }
+
+                        }
+                    }
+                }
+            
+        }
+        .w-chart{
+            margin-top: -10px;
+            height: 200px;
+            position: static !important;
+            #total-orders{
+              
+            }
+        }
+    }
+
+
+
+    .part-two{
+        .box{
+            background-color: #27272f;
+          
+            border-radius: 9px;
+            .current-month{
+                height: 50px;
+                justify-content: center;
+                display: flex;
+                align-items: center;
+                background-color: #fa890a;
+                border-top-right-radius: 9px;
+                border-top-left-radius: 9px;
+               
+                h3{
+                     font-size: 18px;
+                     font-family:'aven-mid' ;
+                     text-align: center;
+                     color: white;
+
+                }
+            }
+            .details{
+                ul{
+                    li{
+                        margin-bottom: 0px;
+                        margin-top: 26px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+
+                        p{
+                            color: #6c6c7b;
+                            font-size: 14px;
+                            text-align: center;
+                            font-family:'aven-reg' ;
+                            margin-bottom: 0;
+                        }
+                        h4{
+                            width: 170px;
+                            padding-bottom: 10px;
+                            color: #f0f0f0;
+                            font-size: 24px;
+                            text-align: center;
+                            font-family:'aven-reg' ;
+                            border-bottom: 1px solid rgba(255, 255, 255, 0.342);
+                        }
+                        h5{
+                            color: #e76322;
+                            font-size: 24px;
+                            text-align: center;
+                            font-family:'aven-reg' ;
+                                  padding-bottom: 20px;
+                            
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Statistics-section-one-part-two{
+    .part-one{
+        background-color: #27272f;
+        border-radius: 7px;
+        margin-top: 30px;
+        padding: 0 10px;
+          .item{
+              display: flex;
+              justify-content: space-around;
+              margin-top: 30px;
+              height: 321px;
+                 
+              .box{
+                  position: relative;
+                   
+
+                .one{
+                    margin-top: 38px;
+                      h2{
+                             color: #6c6c7b;
+                             font-size: 10px;
+                             font-family:'aven-mid' ;
+                             text-align: center;
+                             margin-top: 108px;
+                      }
+                      h3{
+  
+                             color: #fefeff;
+                             font-size: 34px;
+                             text-align: center;
+                             font-family:'aven-mid' ;
+                      }
+                      h4{
+                          text-align: center;
+                            color: #f16621;
+                            font-size: 10px;
+                            font-family:'aven-mid' ;
+                            margin-left: 11px;
+                      }
+                      h5{
+                          margin-top: 83px;
+                          color: #fefeff;
+                          font-size: 14px;
+                          text-align: center;
+                          font-family:'aven-reg' ;
+                          text-transform: capitalize;
+                      }
+                }
+                .chart{
+                    position: absolute;
+                    top: 33px;
+                    left: -35px;
+                    #doughnut{
+                        width: 223px;
+                    }
+                    #doughnut1{
+                        width: 223px;
+                    }
+                }
+
+
+              }
+
+
+            
+
+
+
+
+              .two{
+                  h2{
+                    color: #6c6c7b;
+                    font-size: 12px;
+                    font-family:'aven-mid' ;
+                    text-align: center;
+                    text-transform: uppercase;
+                    margin-top: 17px;
+                  }
+                  .box{
+                      display: flex;
+                      .dot1{
+                          display: flex;
+                          justify-content: center;
+                          align-items: center;
+                          i{
+                            color: #f16621;
+                            font-size: 22px;
+                            margin-right: 5px;
+                          }
+                      }
+                      .dot2{
+                          h2{
+                            color: #6c6c7b;
+                            font-size: 12px;
+                            font-family:'aven-mid' ;
+                            text-align: center;
+                            margin-bottom: 0;
+                            text-transform: capitalize;
+                          }
+                          h3{
+                            color: #e7e7e7;
+                            font-size: 20px;
+                            font-family:'aven-mid' ;
+                            text-align: center;
+                            i{
+                                color: #f16621;
+                                font-size: 14px;
+                            }
+                          }
+                      }
+                  }
+              }
+              
+          }
+    }
+
+    .part-two{
+        position: relative;
+         height: 350px;
+        margin-top: 30px;
+        background-color: #27272F;
+        padding: 20px 5px;
+        border-radius: 7px;
+        .heading{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 63px;
+            h2{
+                font-size: 16px;
+                color: white;
+            }
+            h3{
+                font-size: 16px;
+                color: #6c6c7b;
+                margin-right: 20px;
+            }
+        }
+        .chart{
+            position: absolute;
+            top: 45px;
+            width: 97% !important;
+            display: flex;
+             .chart-box{
+                 width: 100% !important;
+                 display: flex;
+                 justify-content: space-between;
+                 .text{
+                     ul{
+                         height: 100%;
+                         display: flex;
+                         flex-direction: column;
+                         justify-content: space-around;
+                         li{
+                             p{
+                                 font-size: 16px;
+                                 color: rgb(119, 119, 119);
+                                 margin-right: 12px;
+                             }
+                         }
+                     }
+                 }
+                 #chart1{
+                     width: 100% !important;
+                 }
+             }
+        }
+        .box{
+           position: relative;
+           top: -107px;
+            .dot{
+                width: 92%;
+                margin-left: 46px;
+             
+                 display: flex;
+                 align-items: center;
+                  height: 57px;
+                  border-bottom: 1px solid rgba(255, 255, 255, 0.205);
+            }
+        }
+        .botom1{
+            margin-top: 0px;
+            position: absolute;
+            bottom: 0px;
+            width: 94%;
+            float: right;
+            left: 37px;
+            ul{
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                li{
+                    p{
+                        font-size: 16px;
+                        color: rgb(128, 128, 128);
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+.Statistics-section-two{
+    margin-top: 20px;
+            
+  
+             .part-one{
+
+                h2{
+                    font-size: 18px;
+                    color: white;
+                    font-family:'aven-mid' ;
+                }
+                 background-color: #27272F;
+                 padding: 20px 20px ;
+
+             }
+             .part-two{
+                 .two{
+                     margin-top: 20px;
+                    
+                     .chart-three{
+                        height: 287px;
+                        background-color: #27272F;
+                     }
+                 }
+                 .one{
+                    height: 300px;
+                   
+                     .chart-one{
+                        height: 300px;
+                        background-color: #27272F;
+                          height: 300px;
+                     }
+                     .chart-two{
+                        height: 300px;
+                        background-color: #27272F;
+                          height: 300px;
+                          .battle-one{
+                              padding: 30px 30px;
+                              h3{
+                                font-size: 18px;
+                                color: white;
+                                font-family:'aven-mid' ; 
+                              }
+                              .one1{
+                                  margin-top: 20px;
+                                  display: flex;
+                                  justify-content: space-between;
+                                  align-items: center;
+                                  .text{
+                                      h4{
+                                        font-size: 15px;
+                                        color: rgb(180, 180, 180);
+                                        font-family:'aven-mid' ;
+                                      }
+                                  }
+                                  .box{
+                                      width: 80%;
+                                      height: 6px;
+                                      background-color: #1A1B21;
+                                      border-radius: 4px;
+                                      .dot{
+                                        width: 60%;
+                                        height: 6px;
+                                        background-color: #e76322;
+                                        border-radius: 4px; 
+                                      }
+
+                                  }
+                              }
+                              .one2{
+                                  margin-top: 20px;
+                                  display: flex;
+                                  justify-content: space-between;
+                                  align-items: center;
+                                  .text{
+                                      h4{
+                                        font-size: 15px;
+                                        color: rgb(180, 180, 180);
+                                        font-family:'aven-mid' ;
+                                      }
+                                  }
+                                  .box{
+                                      width: 80%;
+                                      height: 6px;
+                                      background-color: #1A1B21;
+                                      border-radius: 4px;
+                                      .dot{
+                                        width: 70%;
+                                        height: 6px;
+                                        background-color: #e76322;
+                                        border-radius: 4px; 
+                                      }
+
+                                  }
+                              }
+                              .one3{
+                                  margin-top: 20px;
+                                  display: flex;
+                                  justify-content: space-between;
+                                  align-items: center;
+                                  .text{
+                                      h4{
+                                        font-size: 15px;
+                                        color: rgb(180, 180, 180);
+                                        font-family:'aven-mid' ;
+                                      }
+                                  }
+                                  .box{
+                                      width: 80%;
+                                      height: 6px;
+                                      background-color: #1A1B21;
+                                      border-radius: 4px;
+                                      .dot{
+                                        width: 50%;
+                                        height: 6px;
+                                        background-color: #e76322;
+                                        border-radius: 4px; 
+                                      }
+
+                                  }
+                              }
+                              .one4{
+                                  margin-top: 20px;
+                                  display: flex;
+                                  justify-content: space-between;
+                                  align-items: center;
+                                  .text{
+                                      h4{
+                                        font-size: 15px;
+                                        color: rgb(180, 180, 180);
+                                        font-family:'aven-mid' ;
+                                      }
+                                  }
+                                  .box{
+                                      width: 80%;
+                                      height: 6px;
+                                      background-color: #1A1B21;
+                                      border-radius: 4px;
+                                      .dot{
+                                        width: 90%;
+                                        height: 6px;
+                                        background-color: #e76322;
+                                        border-radius: 4px; 
+                                      }
+
+                                  }
+                              }
+                          }
+                     }
+                 }
+             }
+}
+
+
+
+.Statistics-section-three{
+    .chart-four{
+        margin-top: 20px;
+        height: 400px;
+        background-color: #1A1B21;
+    }
+   
+
+
+}

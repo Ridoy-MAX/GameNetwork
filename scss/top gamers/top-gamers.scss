@@ -1,0 +1,408 @@
+/*==========
+Best palyer start
+==============*/
+.Best-palyer .banner-slider3 .previous-arrow {
+	position: absolute;
+	top: -40px;
+	right: 75px;
+	z-index: 1111111;
+	color: #ffffff;
+	font-size: 11px;
+	padding: 9px 11px;
+	transition: 0.3s;
+	cursor: pointer;
+	border-radius: 100px;
+	background-color: #f0f0f02c !important;
+}
+.Best-palyer .banner-slider3 .next-arrow {
+	position: absolute;
+	top: -40px;
+	right: 24px;
+	z-index: 1111111;
+	color: #ffffff;
+	font-size: 11px;
+	padding: 9px 11px;
+	transition: 0.3s;
+	cursor: pointer;
+	border-radius: 100px;
+	background-color: #f0f0f02c !important;
+}
+.Best-palyer{
+    position: relative;
+  
+
+
+    .player{
+        .banner-slider3{
+            .banner-item{
+                width: 350px;
+                margin: 12px;
+                .player-one{
+                    border-radius: 15px;
+                
+                    .one-bg{
+                        background: linear-gradient(90deg, rgba(6,5,82,1) 0%, rgba(9,9,121,1) 0%, rgba(4,112,189,1) 0%, rgba(3,134,203,1) 0%, rgba(2,150,213,1) 0%, rgba(73,168,202,1) 0%, rgba(115,129,210,1) 100%, rgba(0,212,255,1) 100%); 
+                    }
+                    .sub{
+                    
+                        border-bottom-right-radius:7px ;
+                        border-bottom-left-radius: 7px;
+                        padding: 5px 10px;
+                        background-color: #32323a;
+                        display: flex;
+                        height: 48px;
+                        justify-content: space-between;
+                        .pepole{
+                            height: 40px;
+                            ul{
+                        
+                                display: flex;
+                                  .one{
+                                    width: 30px;
+                                    height: 30px;
+                                    margin-left: 80px;
+                                  }
+                                  .two{
+                                      position: relative;
+                                      left: -6px;
+                                    width: 35px;
+                                    height: 35px;;
+                                  }
+                                  .three{
+                                    position: relative;
+                                    left: -19px;
+                                    width: 35px;
+                                    height: 35px;
+                                  }
+                                  .four{
+                                    position: relative;
+                                    left: -30px;
+                                    width: 35px;
+                                    height: 35px;
+                                  }
+                                  .five{
+                                    position: relative;
+                                    left: -39px;
+                                    width: 35px;
+                                    height: 35px;
+                                    background-color: #f16621;
+                                    border: 3px solid #27272f;
+                                    border-radius: 100px;
+                                    font-family: "aven-bold";
+                                    font-size: 12px;
+                                    color: white;
+                                    align-items: center;
+                                    text-align: center;
+                                    line-height: 29px;
+                                  }
+                            }
+                        }
+                        .text{
+                            height: 40px;
+                            align-items: center;
+                            h4{margin-top: 10px;
+                                font-size: 14px;
+                                color: #6c6c7b;
+                                font-family: "aven-light"; 
+                            }
+                        }
+                    }
+                
+
+
+                    .details-bg{
+                       
+                        padding: 10px 16px;
+
+                          background-color: #27272f;
+
+                    
+
+
+
+                        .two{
+                            justify-content:space-between;
+                            h5{
+                                font-size: 14px;
+                                color: #fb8c08;
+                                font-family: "aven-light";
+                                span{
+                                    color: rgb(228, 228, 228);
+                                }
+                            }
+                        }
+                        h4{
+                            font-size: 14px;
+                            color: rgb(228, 228, 228);
+                            font-family: "aven-light";
+                        }
+                        h3{
+                            font-size: 14px;
+                            color: #6c6c7b;
+                            font-family: "aven-light";
+                        }
+                        .one{
+                            justify-content: space-between;
+                            h2{
+                                font-size: 12px;
+                                color: #6c6c7b;
+                                font-family: "aven-light";;
+                            }
+                            i{
+                                font-size: 22px;
+                                color: #6c6c7b;
+                                margin-left: 35px;
+                            }
+                        }
+                    }
+
+
+
+                    .img{
+                        position: relative;
+                        height: 320px;
+                        overflow: hidden;
+                     
+                        img{
+                             position: absolute;  
+                            z-index: 9999;  
+                            width: 100%;
+                            height: 100%;
+                        }
+                        .over{
+                           border-radius: 8px;
+                            width: 100%;
+                            height: 100%;
+                            position: absolute;
+                            top: 22px;
+                            background: rgb(6,5,82);
+                            background: linear-gradient(90deg, rgba(6,5,82,1) 0%, rgba(9,9,121,1) 0%, rgba(4,112,189,1) 0%, rgba(3,134,203,1) 0%, rgba(2,150,213,1) 0%, rgba(70,215,131,1) 0%, rgba(29,176,52,1) 100%, rgba(115,129,210,1) 100%); 
+                        }
+                        h4{
+                            position: absolute;
+                            bottom: 0px;
+                            font-size: 22px;
+                            color: #e4e4e4;
+                            margin-left: 10px;
+                            z-index: 99999;
+                        }
+                    }
+                }
+
+
+
+
+
+                .player-two{
+                    margin-top: 30px;
+                    border-radius: 7px;
+                    height: 100px;
+                    display: flex;
+                    justify-content: space-around;
+                   
+                    background: rgb(6,5,82);
+                    background: linear-gradient(90deg, rgba(6,5,82,1) 0%, rgba(9,9,121,1) 0%, rgba(4,112,189,1) 0%, rgba(3,134,203,1) 0%, rgba(2,150,213,1) 0%, rgba(73,168,202,1) 0%, rgba(115,129,210,1) 100%, rgba(0,212,255,1) 100%); 
+                    .logo{
+                           img{
+                               width: 50px;
+                           }
+                    }
+                    .text{
+                        h2{
+                            font-size: 15px;
+                                color: white;
+                                background-color: none;
+                                margin-bottom: 10px;
+                                font-family: "aven-bold";
+
+                            span{
+                               
+
+                                  position: relative;
+                                  top: 10px;
+
+                                font-size: 30px;
+                                color: white;
+                                font-family: "aven-bold";
+                                background-color: rgba(255, 255, 255, 0.384);
+                                border-radius: 7px;
+                                padding: 5px;
+                            }
+                        }
+                    }
+                }
+
+
+
+
+
+
+
+
+
+
+
+
+
+            }
+        }
+    }
+
+
+
+
+
+    .heading{
+        padding: 0 20px;
+        h2{
+            font-size: 30px;
+            font-family:'aven-bold' ;
+            color: #cacacc;
+            margin-top: 35px;
+        }
+    }
+
+    .bg{
+       display: flex;
+       justify-content: end;
+        
+      
+     img{
+         position: absolute;
+         width: 70%;
+    
+         opacity: 0.2;
+     }
+    }
+}
+
+
+
+
+/*==========
+Best palyer end
+==============*/
+/*==========
+Popular player start
+==============*/
+.Popular-player .banner-slider4 .previous-arrow {
+	position: absolute;
+	top: -40px;
+	right: 75px;
+	z-index: 1111111;
+	color: #ffffff;
+	font-size: 11px;
+	padding: 9px 11px;
+	transition: 0.3s;
+	cursor: pointer;
+	border-radius: 100px;
+	background-color: #f0f0f02c !important;
+}
+.Popular-player .banner-slider4 .next-arrow {
+	position: absolute;
+	top: -40px;
+	right: 24px;
+	z-index: 1111111;
+	color: #ffffff;
+	font-size: 11px;
+	padding: 9px 11px;
+	transition: 0.3s;
+	cursor: pointer;
+	border-radius: 100px;
+	background-color: #f0f0f02c !important;
+}
+.Popular-player{
+    margin-bottom: 50px;
+    .heading{
+        padding: 0 20px;
+        h2{
+            font-size: 30px;
+            font-family:'aven-bold' ;
+            color: #cacacc;
+            margin-top: 35px;
+            margin-bottom: 50px;
+        }
+    }
+    .banner-slider4{
+        .banner-item{
+            display: flex;
+            background-color: #27272f;
+            justify-content: space-between;
+         
+            border-radius: 8px;
+            margin:5px;
+             .icon{
+             background-color: #32323a;
+             display: flex;
+             align-items: center;
+             padding: 2px;
+             border-top-right-radius:7px ;
+             border-bottom-right-radius:7px ;
+             i{
+                 color: rgb(255, 255, 255);
+                 font-weight: 400;
+
+             }
+             }
+
+            .details{
+        
+                padding: 10px;
+                .two{
+                    display: flex;
+                    justify-content: space-between;
+                  h4{
+                        font-size: 20px;
+                        font-family:'aven-reg' ;
+                         color: #e7e7e7;
+
+                  }
+                  h5{
+                    font-size: 14px;
+                    font-family:'aven-light' ;
+                     color: #f77b13;
+                     margin-left: 60px;
+                     span{
+                        color: #c0c0c0;
+                     }
+                  }
+                  h5{
+
+                  }
+                }
+                .one{
+                    h3{
+                        font-size: 14px;
+                        font-family:'aven-reg' ;
+                         color: #f77b13;
+                    }
+                }
+                .three{
+                       h4{
+                        font-size: 14px;
+                        font-family:'aven-reg' ;
+                         color: #c7c7c7;
+                         span{
+                            color: #ffffff;
+                         }
+                       }
+                }
+            }
+            .img{
+                padding: 7px;
+                img{
+
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+/*==========
+Popular player end
+==============*/

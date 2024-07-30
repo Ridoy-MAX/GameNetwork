@@ -1,0 +1,450 @@
+// acount-banner=======================
+.acount-banner{
+    position: relative;
+    .img-bg{
+        position: absolute;
+        top: 0;
+        z-index: -1;
+    }
+    .details{
+        .text2{
+            ul{
+                display: flex;
+                li{
+                    margin-right: 15px;
+                    a{
+                        font-size: 14px;
+                        color: aliceblue;
+                        font-family: "aven-reg";
+                        padding: 8px 33px;
+                        border-radius: 25px;
+                        background-color: rgba(255, 255, 255, 0.438);
+                        transition: 0.4s;
+                        &:hover{
+                            background-color: #f16621;
+                        }
+                      
+                    }
+                    .icon{
+                        font-size: 16px;
+                        color: aliceblue;
+                        font-family: "aven-reg";
+                        padding: 8px 10px;
+                        border-radius: 25px;
+                        background-color: rgba(255, 255, 255, 0.238)  
+                    }
+                }
+            }
+
+        }
+        .text1{
+            margin-top: 190px;
+            h2{
+                font-size: 48px;
+               color: aliceblue;
+               font-family:'aven-bold' ;
+            }
+            i{
+                position: relative;
+                top: -86px;
+                left: 303px;
+                width: 34px;
+                height: 34px;
+                font-size: 16px;
+                color: aliceblue;
+                font-family: "aven-reg";
+                padding: 8px 10px;
+                border-radius: 25px;
+                background-color: rgba(255, 255, 255, 0.238) 
+            }
+        }
+    }
+    .img{
+        margin-top: 119px;
+        display: flex;
+        justify-content: end;
+        img{
+
+        }
+        i{
+            position: relative;
+            top: -13px;
+            left: -36px;
+            font-size: 16px;
+            width: 34px;
+            height: 34px;
+            color: aliceblue;
+            font-family: "aven-reg";
+            padding: 8px 10px;
+            border-radius: 25px;
+            background-color: rgba(255, 255, 255, 0.219) 
+        }
+    }
+}
+
+
+
+
+// My friend=======================
+
+.My-friend{
+    .heading{
+        h2{
+            font-size: 24px;
+            color: white;
+            font-family:'aven-bold' ;
+            margin-left: 30px;
+        }
+
+    }
+.banner{
+    background-color: #27272f;
+
+  
+
+    .banner-slider5{
+     
+        width: 100%;
+        .offline{
+            .details-bg{
+                h3{
+                font-size: 14px;
+                color: rgb(189, 188, 188) !important;
+                text-align: center;
+                margin-bottom: 0px;
+                width: 86px;
+               margin-top: 6px;
+                }
+                h4{
+                   font-size: 14px;
+                   color: #f16621;
+                   text-align: center;
+                   display: none;
+                }
+            }
+            .img{
+                display: flex;
+                .one{
+               height: 83px;
+               width: 83px;
+               margin-left: 4px;
+                }
+                .two{
+                   height: 95px;
+                   width: 95px;
+                   position: absolute;
+                   top: -6px;
+                   display: none;
+                  
+                }
+            }
+        }
+         .banner-item{
+              padding: 10px 10px;
+              transition: 0.4s;
+              border-top:2px solid #27272f ;
+              &:hover{
+                  background-color: #32323a;
+                  border-top:2px solid #f16621 ;
+              }
+             .details-bg{
+                 h3{
+                 font-size: 14px;
+                 color: white;
+                 text-align: center;
+                 margin-bottom: 0px;
+                 width: 78px;
+                margin-top: 6px;
+                 }
+                 h4{
+                    font-size: 14px;
+                    color: #f16621;
+                    text-align: center;
+                 }
+             }
+             .img{
+                 display: flex;
+                 position: relative;
+                 margin-top: 30px;
+                 z-index: 99999999;
+                 .one{
+                height: 83px;
+                width: 83px;
+                margin-left: 4px;
+                 }
+                 .two{
+                    height: 95px;
+                    width: 95px;
+                    position: absolute;
+                    top: -6px;
+                   
+                 }
+             }
+         }
+    }
+  
+}
+}
+
+.bottom{
+    background-color: #27272f;
+    padding-bottom: 25px;
+    padding-top: 15px;
+    .one{
+        margin-left: 30px;
+       h4{
+        font-size: 16px;
+        color: rgb(179, 179, 179);
+        font-family:'aven-demi' ;
+        span{
+          color: rgb(255, 255, 255);
+          margin-left: 10px;
+        }
+       }
+    }
+    .two{
+        display: flex;
+        justify-content: center;
+        h4{
+            font-size: 16px;
+            color: rgb(179, 179, 179);
+            font-family:'aven-demi' ;
+            span{
+              color: rgb(255, 255, 255);
+              margin-left: 10px;
+            }
+           }
+    }
+    .three{
+        display: flex;
+        align-items: center;
+          .line{
+              margin-top: 15px;
+            height: 2px;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.445);
+          }
+    }
+}
+
+
+// New feed=======================
+.Post-Items{
+    margin-top: 40px;
+    
+    .New-Items{
+        .content{
+            background-color: #27272f;
+            border-radius: 8px;
+            .footer{
+                background-color: #27272f;
+                padding: 5px 43px;
+                border-bottom:1px solid rgba(255, 255, 255, 0.158) ;
+                .part-two{
+                    .bottom{
+                        display: flex;
+                       .from{
+                        display: flex;
+                           width: 100%;
+                           height: 40px;
+                           margin-top: 10px;
+                           margin-bottom: 10px;
+                        .sent{
+                            display: flex;
+                            align-items: center;
+                            cursor: pointer;
+                            background-color: #27272f;
+                        button{
+                            background-color: #27272f;
+                            border: none;
+                            i{
+                                color: #e9e9e9;
+                                font-size: 20px;
+                                background-color: #dd6c1d;
+                                padding: 5px;
+                                border-radius: 100px;
+                            }
+                        }
+                        }
+                        .text-one{
+                            display: flex;
+                            width: 100%;
+                            border-radius: 25px;
+                            background-color: #212128;
+                            height: 38px;
+                            margin: 5px 15px;
+                            padding: 0 15px;
+                               .text{
+                                width: 94%;
+                                input{
+                                    border: none;
+                                    width: 100%;
+                                    margin-left: 15px;
+                                    background-color: transparent;
+                                    border: none;
+                                    color: #4e4e4e !important;
+                                }
+                               }
+                        .file{
+                            display: flex;
+                            align-items: center;
+                            margin-left: 5px;
+                            input{
+                                font-size: 0px;
+                                color: #565a64;
+                                background-color:#565a64 ;
+                                     position: relative;
+                                     left: -18px;
+                                     z-index: 1;
+                                     cursor: pointer;
+            
+                            }
+                            i{
+                                color: #565a64;
+                                font-size: 22px;
+                                z-index: 1;
+                             
+                               }
+                        }
+                               .emoj{
+                                display: flex;
+                                align-items: center;
+                                   i{
+                                    color: #565a64;
+                                    font-size: 22px;
+                                   }
+                               }
+                            
+                        }
+                       }
+                    }
+                }
+               .part-one{
+                   display: flex;
+                   justify-content: space-between;
+                   .two{
+                       h4{
+                        font-size: 14px;
+                        color: #6c6c7b;
+                       
+                        font-family:'aven-reg' ;
+                        padding-bottom: 4px;
+                        border-bottom: 1px solid rgba(255, 255, 255, 0.171);
+                       }
+                   }
+                   .one{
+                       display: flex;
+                       i{
+                           font-size: 25px;
+                        color: #6c6c7b;
+                        margin-left: 15px;
+                        font-family:'aven-reg' ;
+                        a{
+                            font-size: 14px;
+                        color: #6c6c7b;
+                        margin-left: 10px;
+                        font-family:'aven-mid' ; 
+                        margin-left: 0;
+                        position: relative;
+                        bottom: 7px;
+                        }
+                       }
+                   }
+               }
+            }
+            .photo{
+                display: flex;
+                justify-content: center;
+                padding: 5px 43px;
+                 .img{
+                     .row{
+                         .img-one{}
+                         .img-two{
+                             margin-top: 10px;
+                            
+
+                             .one{
+                                 display: flex;
+                                 justify-content: center;
+                        
+                                img{
+                                    height: 193px;
+                                }
+                             }
+                             .two{
+                                display: flex;
+                                justify-content: center;
+                                img{
+                                    height: 193px;  
+                                }
+                             }
+                         }
+                     }
+                 }
+
+               img{
+               
+                height: 404px;
+               }
+            }
+            .details{
+                p{
+                    font-size: 15px;
+                    color: white;
+                    font-family:'aven-reg' ;
+                    padding: 5px 43px;
+                }
+            }
+            .heading{
+                display: flex;
+                justify-content: space-between;
+                padding: 5px 43px;
+                padding-top: 30px;
+               .part-one{
+                   display: flex;
+                  .img{
+                     img{
+                       width: 55px;
+                       height: 55px;
+                     }
+                  }
+                  .text{
+                      margin-left: 10px;
+                      h4{
+                        color: #6c6c7b;
+                        font-size: 14px;
+                        font-family:'aven-reg' ;
+
+                      }
+                      h3{
+                       
+                        color: #fb8c08;
+                        font-size: 18px;
+                        font-family:'aven-mid' ;
+                      }
+                  }
+               }
+               .part-two{
+                   i{
+                    font-size: 20px;
+                    color: #6c6c7b;
+                    font-family:'aven-reg' ;
+                   }
+               }
+            }
+        }
+        .head-top{
+            display: flex;
+            justify-content: center;
+            
+            h2{
+                 font-size: 24px;
+                 color: white;
+                 font-family:'aven-mid' ;
+                 padding-bottom: 10px;
+                 border-bottom:2px solid #dd6c1d;
+                 margin-bottom: 30px;
+            } 
+        }
+    }
+}

@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ======google font=========== -->
+
+    <!-- =========font-awesome======== -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- =========bootstrap========= -->
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <!-- =========boxicons======== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!--=============== REMIX ICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <link
+  href="https://unpkg.com/video.js@7/dist/video-js.min.css"
+  rel="stylesheet"
+/>
+    <!-- ==========slick-slider-css=========== -->
+    <link href="css/slick.css" rel="stylesheet" />
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="scss/my-team/my-team.css" />
+   
+    <link rel="stylesheet" href="scss/responsive/responsive.css" />
+    <title>Responsive menu dropdown</title>
+  </head>
+
+  <body>
+    <!-- ==================================body start=========================================== -->
+
+    <div class="container-fluid">
+      <div class="row">
+        <!-- ==================================menu function start=========================================== -->
+
+        <div class="col-md-2 position">
+          <!--===== ===================================================
+    ============================================================
+    =============================================================
+    responsive navbar
+    ==============================================================
+    ===========================================================
+    ==============================================================
+    ====================================================== =====-->
+          <header class="header container">
+            <i class="bx bx-menu header__toggle" id="header-toggle"> </i>
+
+            <nav class="nav col-lg-2" id="nav-menu">
+              <div class="menu w-100">
+                <div class="nav-item">
+                  <div class="logo d-flex d-none d-lg-block">
+                    <a href="index.html"><img src="img/game-logo.png" /> </a>
+                    <div class="text">
+                      <a href="index.html">
+                        <h1>GAME</h1>
+                      </a>
+                      <a href="index.html">
+                        <h3>NETWORK</h3>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="play d-flex">
+                    <a href="vedio.html" class="play-btn">Play </a>
+                    <a href="#">
+                      <div class="icon">
+                        <div class="box0"></div>
+                        <div class="box1"><img src="img/bg-1.png" /></div>
+                        <div class="box2"><img src="img/bg-2.png" /></div>
+                        <div class="box3"><img src="img/bg-3.png" /></div>
+                        <div class="box4"><img src="img/bg-4.png" /></div>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="menu-item">
+                    <ul class="list">
+                      <li>
+                        <a href="account2.html"><i class='bx bx-user'></i>Profile </a>
+                      </li>
+                      <li>
+                        <a href="account.html"><i class='bx bx-search'></i>Search </a>
+                      </li>
+                      <li>
+                        <a href="my-team.html"><i class='bx bx-user-plus'></i>Friends </a>
+                      </li>
+                      <li>
+                        <a href="chat.html"><i class='bx bx-message-rounded'></i>Messages </a>
+                      </li>
+                      <li>
+                        <a href="+LP.html"
+                          ><i class='bx bx-shield-alt'></i>Developments
+                        </a>
+                      </li>
+                      <li>
+                        <a href="all-match .html"><i class='bx bx-award'></i>Matches</a>
+                      </li>
+                      <li>
+                        <a href="turnir-setka.html"><i class='bx bx-cart'></i>Score</a>
+                      </li>
+                      <li>
+                        <a href="Statistics.html"
+                          ><i class='bx bx-list-ul'></i>Tasks</a
+                        >
+                      </li>
+                      <li>
+                        <a href=""><i class='bx bx-heart' ></i>Favorite</a>
+                      </li>
+                      <li>
+                        <a href="tournament.html"><i class='bx bx-trophy'></i>Tournaments</a>
+                      </li>
+                      <li>
+                        <a href="battle.html"
+                          ><i class='bx bx-cube'></i>Balance</a
+                        >
+                      </li>
+                      <li>
+                        <a href="top_gamers.html"
+                          ><i class='bx bx-store-alt'></i>suggestions</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="socil-logo">
+                    <ul class="d-flex">
+                      <li>
+                        <a href=""> <i class="fab fa-twitter"></i></a>
+                      </li>
+                      <li>
+                        <a href=""><i class="fab fa-facebook"></i></a>
+                      </li>
+                      <li>
+                        <a href=""> <i class="fab fa-behance-square"></i></a>
+                      </li>
+                      <li>
+                        <a href=""> <i class="fab fa-instagram-square"></i></a>
+                      </li>
+                      <li>
+                        <a href=""><i class="fab fa-whatsapp"></i></a>
+                      </li>
+                      <li>
+                        <a href=""> <i class="fas fa-user-tie"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="support d-none d-lg-block">
+                    <ul>
+                      <li>
+                        <a href="#"><i class="bx bx-support"></i>Help </a>
+                      </li>
+                      <li>
+                        <a href="#"
+                          ><i class='bx bx-error-circle'></i>Conditions</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#"
+                          ><i class='bx bx-notepad'></i>Confidentiality
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </header>
+          <!--===== ===================================================
+    ============================================================
+    =============================================================
+    responsive navbar end
+    ==============================================================
+    ===========================================================
+    ==============================================================
+    ====================================================== =====-->
+          <!--===== MAIN JS =====-->
+        </div>
+
+        <!-- ==================================menu function end=========================================== -->
+
+        <!-- ==================================body function start=========================================== -->
+
+        <div class="col-md-10">
+          <!-- ===============header top ============================ -->
+          <div class="row header-border">
+            <section class="header-top">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-lg-5 gx-0">
+                    <div class="search d-flex justify-content-start">
+                      <div class="logo d-flex d-lg-none d-sm-block">
+                        <a href="index.html"><img src="img/game-logo.png" /> </a>
+                        <div class="text">
+                          <a href="index.html">
+                            <h1>GAME</h1>
+                          </a>
+                          <a href="#">
+                            <h3>NETWORK</h3>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="from">
+                        <form class="d-flex justify-content-start">
+                          <button class="btn" type="submit">
+                            <i class="fas fa-search"></i>
+                          </button>
+                          <input
+                            class="form-control me-2"
+                            type="search"
+                            placeholder="Search..."
+                            aria-label="Search"
+                          />
+                        </form>
+                      </div>
+                      <div class="add-vedio d-none d-lg-block">
+                        <div class="d-flex">
+                          <a href=""><i class="bx bx-video-plus"></i> </a>
+                          <p>Add video</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-5 gx-0"></div>
+                  <div class="col-lg-2 gx-0">
+                    <div class="setting d-none d-lg-block">
+                      <div class="d-flex">
+                        <div class="logo">
+                          <ul>
+                            <li>
+                              <a href=""> <i class="bx bx-bell"></i></a>
+                            </li>
+                            <li>
+                              <a href="chat.html">
+                                <i class='bx bx-message-detail'></i>
+                                <h4>12</h4>
+                              </a>
+                            </li>
+                            <li>
+                              <a href=""><i class='bx bx-cog'></i></a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="img">
+                          <a href="Authorization.html"> <img src="img/header.gif" alt="" /></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <!-- ===============header top end============================ -->
+
+
+
+          <!-- ===============my team============================ -->
+
+         <section class="my-team">
+             <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-9 gx-0">
+                    <div class="my-team-left">
+
+                          <div class="sectiom-one">
+                              <div class="team-banner">
+                                  <div class="part-one">
+                                      <div class="img">
+                                          <img src="img/tournaments1.png" alt="">
+                                       </div>
+                                       <div class="text">
+                                           <div class="d-flex one">
+                                               <img src="img/All-Matches-game-logo.png" alt="" class="img-fluid">
+                                               <h3>Fanatic</h3>
+                                           </div>
+                                      
+                                           <h4>KOJIMA PRODUCTIONS</h4>
+                                           <h5> <span>356.599</span> viewers</h5>
+                                       </div>
+                                  </div>
+                                  <div class="part-two">
+                                      <a href="#" class="one">Chalange Match</a>
+                                      <a href="#" class="two">Resport Team</a>
+                                  </div>
+                              </div>
+                              <div class="img-team">
+                                  <img src="img/tournaments-bg.png" alt="" class="img-fluid">
+                              </div>
+                          </div>
+
+
+                          <div class="section-two">
+
+                            <div class="d-flex justify-content-between col-md-5 me-2">
+  
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">
+                                    Simulator
+                                </label>
+                              </div>
+                        
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">
+                                    Shooter
+                                </label>
+                              </div>
+                        
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">
+                                    Strategy
+                                </label>
+                              </div>
+                        
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">
+                                Sport
+                                </label>
+                              </div>
+                            </div>
+                         
+                     
+                             <div class="d-flex justify-content-between col-md-6">
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">
+                                Advance
+                                </label>
+                              </div>
+                        
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">
+                                    Strategy
+                                </label>
+                              </div>
+                        
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">
+                                    Wargame
+                                </label>
+                              </div>
+                        
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">
+                                    Wargame
+                                </label>
+                              </div>
+
+                             </div>
+                        
+                   
+                       
+                         
+                         
+                          </div>
+
+                          <div class="sections-three">
+                              <div class="row">
+                                  <div class="col-md-5">
+                                      <div class="part-one">
+
+                                         <div class="heading">
+                                           <div class="img">
+                                               <div class="img-one">
+                                                   <img src="img/Video-img.png" alt="">
+                                               </div>
+                                             <h4>Online</h4>
+                                         </div>
+                                         <div class="text">
+                                             <h4>Baby_Butterfly</h4>
+                                             <h5><i class='bx bx-user'></i> 748 000 subscribers</h5>
+                                         </div>
+                                         </div>
+
+
+                                         <div class="content">
+                                             <div class="row1 d-flex">
+                                                 <div class="one active">
+                                                     <h3>Team Lag</h3>
+                                                     <h4>League Of Legends <span></span></h4>
+                                                 </div>
+                                                 <div class="two active">
+                                                   <h3>5x5</h3>
+                                                   <h4>2 450 resting <span></span></h4>
+                                                 </div>
+                                             </div>
+                                             <div class="row1">
+                                                 <div class="one active">
+                                                     <h3>Team Lag</h3>
+                                                     <h4>W <span>W</span> L <span>D</span> W  <span>W</span></h4>
+                                                 </div>
+                                                 <div class="two active">
+                                                   <h3>Team Lag</h3>
+                                                   <h4>1300 reting<span></span></h4>
+                                                 </div>
+                                             </div>
+                                             <div class="row1">
+                                                 <div class="one active">
+                                                     <h3>Team Lag</h3>
+                                                     <h4>100 retting</span></h4>
+                                                 </div>
+                                                 <div class="two active">
+                                                   <h3>Team Lag</h3>
+                                                   <h4><span>Click Here</span></h4>
+                                                 </div>
+                                             </div>
+                                         </div>
+
+                                         <div class="about">
+                                             <div class="part-one">
+                                                 <div class="text">
+                                                     <h3>About Us</h3>
+                                                 </div>
+                                                 <div class="logo">
+                                                     <ul>
+                                                         <li>
+                                                             <a href="#"> <i class='bx bxl-facebook' ></i></a>
+                                                         </li>
+                                                         <li>
+                                                             <a href="#"> <i class='bx bxl-twitter' ></i></a>
+                                                         </li>
+                                                         <li>
+                                                             <a href="#"> <i class='bx bxl-instagram-alt'></i></a>
+                                                         </li>
+                                                       
+                                                     </ul>
+                                                 </div>
+                                             </div>
+                                             <p>Sed ut perspiciatis unde omnis iste natus error sit 
+                                               voluptatem accusantium doloremque laudantium, 
+                                               totamrem aperiam, eaque ipsa quae.</p>
+
+                                               <div class="part-one">
+                                                   <div class="text">
+                                                       <h3>Top List</h3>
+                                                   </div>
+                                                   <div class="logo1">
+                                                       <ul>
+                                                           <li>
+                                                               <a href="#">Show More <i class='bx bx-chevron-right' ></i></a>
+                                                           </li>
+                                                         
+                                                       
+                                                         
+                                                       </ul>
+                                                   </div>
+                                               </div> 
+                                               <div class="part-two">
+                                                   <ul>
+                                                       <li><img src="img/account-new-feed-sm1.png" alt="">
+                                                       <h4>Romba</h4>
+                                                       </li>
+                                                       <li><img src="img/account-new-feed-sm1.png" alt="">
+                                                       <h4>Romba</h4>
+                                                       </li>
+                                                       <li><img src="img/account-new-feed-sm1.png" alt="">
+                                                       <h4>Romba</h4>
+                                                       </li>
+                                                   </ul>
+                                               </div>
+                                         </div>
+                                 
+                                      </div>
+                                  </div>
+
+
+                                  <div class="col-md-7">
+                                      <div class="section-middle">
+
+                                         <div class="section-middle-one">
+                                           <div class="part-one">
+                                               <div class="text">
+                                                   <h3>Top List</h3>
+                                               </div>
+                                               <div class="logo1">
+                                                
+                                               </div>
+                                           </div> 
+                                          <div class="scroll">
+                                           <div class="part-two">
+                                               <ul>
+                                                   <li><img src="img/account-new-feed-sm1.png" alt="">
+                                                   <h4>skeletons</h4>
+                                                   <h5>12 people</h5>
+                                                   </li>
+                                                   <li><img src="img/account-new-feed-sm1.png" alt="" class="active">
+                                                   <h4>Romba</h4>
+                                                   <h5>12 people</h5>
+                                                   </li>
+                                                   <li><img src="img/account-new-feed-sm1.png" alt="">
+                                                   <h4>Romba</h4>
+                                                   <h5>12 people</h5>
+                                                   </li>
+                                                   <li><img src="img/account-new-feed-sm1.png" alt="">
+                                                   <h4>Romba</h4>
+                                                   <h5>12 people</h5>
+                                                   </li>
+                                                   <li><img src="img/account-new-feed-sm1.png" alt="">
+                                                   <h4>Romba</h4>
+                                                   <h5>12 people</h5>
+                                                   </li>
+                                               </ul>
+                                           </div>
+                                           <div class="part-two">
+                                               <ul>
+                                                   <li><img src="img/account-new-feed-sm1.png" alt="">
+                                                   <h4>skeletons</h4>
+                                                   <h5>12 people</h5>
+                                                   </li>
+                                                   <li><img src="img/account-new-feed-sm1.png" alt="" class="">
+                                                   <h4>Romba</h4>
+                                                   <h5>12 people</h5>
+                                                   </li>
+                                                   <li><img src="img/account-new-feed-sm1.png" alt="" class="active">
+                                                   <h4>Romba</h4>
+                                                   <h5>12 people</h5>
+                                                   </li>
+                                                   <li><img src="img/account-new-feed-sm1.png" alt="">
+                                                   <h4>Romba</h4>
+                                                   <h5>12 people</h5>
+                                                   </li>
+                                                   <li><img src="img/account-new-feed-sm1.png" alt="">
+                                                   <h4>Romba</h4>
+                                                   <h5>12 people</h5>
+                                                   </li>
+                                               </ul>
+                                           </div>
+                                           <div class="part-two">
+                                               <ul>
+                                                   <li><img src="img/account-new-feed-sm1.png" alt="">
+                                                   <h4>skeletons</h4>
+                                                   <h5>12 people</h5>
+                                                   </li>
+                                                   <li><img src="img/account-new-feed-sm1.png" alt="" class="active">
+                                                   <h4>Romba</h4>
+                                                   <h5>12 people</h5>
+                                                   </li>
+                                                   <li><img src="img/account-new-feed-sm1.png" alt="">
+                                                   <h4>Romba</h4>
+                                                   <h5>12 people</h5>
+                                                   </li>
+                                                   <li><img src="img/account-new-feed-sm1.png" alt="">
+                                                   <h4>Romba</h4>
+                                                   <h5>12 people</h5>
+                                                   </li>
+                                                   <li><img src="img/account-new-feed-sm1.png" alt="">
+                                                   <h4>Romba</h4>
+                                                   <h5>12 people</h5>
+                                                   </li>
+                                               </ul>
+                                           </div>
+                                          </div>
+                                         </div>
+
+
+                                         <div class="section-middle-two">
+                                           <div class="part-one">
+                                               <div class="text">
+                                                   <h3>Roster Chanhe History</h3>
+                                               </div>
+                                               <div class="logo1">
+                                                
+                                               </div>
+                                           </div> 
+                                          <div class="scroll">
+                                           <div class="part-two">
+                                               <ul>
+                                                   <li>
+                                                   <div class="img">
+                                                       <img src="img/account-new-feed-sm1.png" alt="">
+                                                       <h4>My Heard</h4>
+                                                   </div>
+                                                   <div class="text">
+                                                      <h4 class="one"> 22 may 2021</h4>
+                                                      <h4> 22 may 2021</h4>
+                                                   </div>
+                                                  
+                                                   </li>
+                                                   <li>
+                                                   <div class="img">
+                                                       <img src="img/account-new-feed-sm1.png" alt="">
+                                                       <h4>My Heard</h4>
+                                                   </div>
+                                                   <div class="text">
+                                                      <h4 class="one"> 22 may 2021</h4>
+                                                      <h4> 22 may 2021</h4>
+                                                   </div>
+                                                  
+                                                   </li>
+                                                   <li>
+                                                   <div class="img">
+                                                       <img src="img/account-new-feed-sm1.png" alt="">
+                                                       <h4>My Heard</h4>
+                                                   </div>
+                                                   <div class="text">
+                                                      <h4 class="one"> 22 may 2021</h4>
+                                                      <h4> 22 may 2021</h4>
+                                                   </div>
+                                                  
+                                                   </li>
+                                                   <li>
+                                                   <div class="img">
+                                                       <img src="img/account-new-feed-sm1.png" alt="">
+                                                       <h4>My Heard</h4>
+                                                   </div>
+                                                   <div class="text">
+                                                      <h4 class="one"> 22 may 2021</h4>
+                                                      <h4> 22 may 2021</h4>
+                                                   </div>
+                                                  
+                                                   </li>
+                                                   <li>
+                                                   <div class="img">
+                                                       <img src="img/account-new-feed-sm1.png" alt="">
+                                                       <h4>My Heard</h4>
+                                                   </div>
+                                                   <div class="text">
+                                                      <h4 class="one"> 22 may 2021</h4>
+                                                      <h4> 22 may 2021</h4>
+                                                   </div>
+                                                  
+                                                   </li>
+                                                   <li>
+                                                   <div class="img">
+                                                       <img src="img/account-new-feed-sm1.png" alt="">
+                                                       <h4>My Heard</h4>
+                                                   </div>
+                                                   <div class="text">
+                                                      <h4 class="one"> 22 may 2021</h4>
+                                                      <h4> 22 may 2021</h4>
+                                                   </div>
+                                                  
+                                                   </li>
+                                                   <li>
+                                                   <div class="img">
+                                                       <img src="img/account-new-feed-sm1.png" alt="">
+                                                       <h4>My Heard</h4>
+                                                   </div>
+                                                   <div class="text">
+                                                      <h4 class="one"> 22 may 2021</h4>
+                                                      <h4> 22 may 2021</h4>
+                                                   </div>
+                                                  
+                                                   </li>
+                                                 
+                                               
+                                               
+                                               
+                                               </ul>
+                                           </div>
+                                          
+                                          </div>
+
+                                         </div>
+
+
+
+
+                                      </div>
+                                  </div>
+
+                              </div>
+
+
+
+                          </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                   <div class="my-team-right">
+                        <div class="right-section-one">
+                            <div class="heading">
+                               <div class="banner-slider-team">
+                                   <div class="banner-item bg-3">
+                                      <h2>Group A</h2>
+                                   </div>
+                                   <div class="banner-item bg-3">
+                                       <h2>Group B</h2>
+                                   </div>
+                                   <div class="banner-item bg-3">
+                                       <h2>Group C</h2>
+                                   </div>
+                                   <div class="banner-item bg-3">
+                                       <h2>Group D</h2>
+                                   </div>
+                                
+                            
+                                 </div>
+                                 <h3>the best players of the tournament</h3>
+                            </div>
+
+                            <div class="scroll">
+                                <div class="part-two">
+                                    <ul>
+                                        <li>
+                                        <div class="img">
+                                            <img src="img/tournaments1.png" alt="">
+                                            <h4>troy team</h4>
+                                        </div>
+                                        <div class="text">
+                                           <h4 > 22 <i class='bx bxs-user'></i></h4>
+                                           <h4 class="one"> 1</h4>
+                                        </div>
+                                       
+                                        </li>
+                                        <li>
+                                        <div class="img">
+                                            <img src="img/tournaments1.png" alt="">
+                                            <h4>troy team</h4>
+                                        </div>
+                                        <div class="text">
+                                           <h4 > 22 <i class='bx bxs-user'></i></h4>
+                                           <h4 class="one"> 1</h4>
+                                        </div>
+                                       
+                                        </li>
+                                        <li>
+                                        <div class="img">
+                                            <img src="img/tournaments1.png" alt="">
+                                            <h4>troy team</h4>
+                                        </div>
+                                        <div class="text">
+                                           <h4 > 22 <i class='bx bxs-user'></i></h4>
+                                           <h4 class="one"> 1</h4>
+                                        </div>
+                                       
+                                        </li>
+                                        <li>
+                                        <div class="img">
+                                            <img src="img/tournaments1.png" alt="">
+                                            <h4>troy team</h4>
+                                        </div>
+                                        <div class="text">
+                                           <h4 > 22 <i class='bx bxs-user'></i></h4>
+                                           <h4 class="one"> 1</h4>
+                                        </div>
+                                       
+                                        </li>
+                                        <li>
+                                        <div class="img">
+                                            <img src="img/tournaments1.png" alt="">
+                                            <h4>troy team</h4>
+                                        </div>
+                                        <div class="text">
+                                           <h4 > 22 <i class='bx bxs-user'></i></h4>
+                                           <h4 class="one"> 1</h4>
+                                        </div>
+                                       
+                                        </li>
+                                        <li>
+                                        <div class="img">
+                                            <img src="img/tournaments1.png" alt="">
+                                            <h4>troy team</h4>
+                                        </div>
+                                        <div class="text">
+                                           <h4 > 22 <i class='bx bxs-user'></i></h4>
+                                           <h4 class="one"> 1</h4>
+                                        </div>
+                                       
+                                        </li>
+                                        <li>
+                                        <div class="img">
+                                            <img src="img/tournaments1.png" alt="">
+                                            <h4>troy team</h4>
+                                        </div>
+                                        <div class="text">
+                                           <h4 > 22 <i class='bx bxs-user'></i></h4>
+                                           <h4 class="one"> 1</h4>
+                                        </div>
+                                       
+                                        </li>
+                                        <li>
+                                        <div class="img">
+                                            <img src="img/tournaments1.png" alt="">
+                                            <h4>troy team</h4>
+                                        </div>
+                                        <div class="text">
+                                           <h4 > 22 <i class='bx bxs-user'></i></h4>
+                                           <h4 class="one"> 1</h4>
+                                        </div>
+                                       
+                                        </li>
+
+                       
+                                      
+                                    
+                                    
+                                    
+                                    </ul>
+                                </div>
+                               
+                               </div>
+
+
+
+                        </div>
+
+                        <div class="right-section-two">
+
+                            <div class="part-one">
+                                <div class="text ">
+                                    <h3>My Team</h3>
+                                </div>
+                                <div class="logo1">
+                                    <ul>
+                                        <li>
+                                            
+                                        </li>
+                                      
+                                    
+                                      
+                                    </ul>
+                                </div>
+                            </div> 
+                            <div class="part-two">
+                                <ul>
+                                    <li><img src="img/account-new-feed-sm1.png" alt="">
+                                    <h4>Romba</h4>
+                                    </li>
+                                    <li><img src="img/account-new-feed-sm1.png" alt="">
+                                    <h4>Romba</h4>
+                                    </li>
+                                    <li><img src="img/account-new-feed-sm1.png" alt="">
+                                    <h4>Romba</h4>
+                                    </li>
+                                </ul>
+
+                                  <a href="#" class="invite"> To invite a friend</a> 
+                                  <p>I agree with privacy rights</p>
+                                  <h4>To invite a friend</h4>
+
+                            </div>
+                            <div class="part-three">
+                                <ul>
+                                    <li>
+                                        <div class="img">
+                                            <img src="img/tournaments1.png" alt="">
+                                          
+                                        </div>
+                                        <div class="text">
+                                           <h4 >All rights of our game are reserved.</h4>
+                                           <h4 class="one"> Cliack match. <span>online</span></h4>
+                                        </div>
+                                       
+                                     </li>
+                                    <li>
+                                        <div class="img">
+                                            <img src="img/tournaments1.png" alt="">
+                                          
+                                        </div>
+                                        <div class="text">
+                                           <h4 >All rights of our game are reserved.</h4>
+                                           <h4 class="one"> Cliack match. <span>online</span></h4>
+                                        </div>
+                                       
+                                     </li>
+                                </ul>
+                            </div>
+                        </div>
+                   </div>
+                </div>
+            </div>
+             
+
+
+             </div>
+
+         </section>
+
+
+          <!-- ===============my team end============================ -->
+    
+       
+            
+
+
+
+      
+       
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+        <!-- ==================================body function end=========================================== -->
+      </div>
+    </div>
+
+    <!-- ==================================body start=========================================== -->
+
+    <!-- ==================================footer=========================================== -->
+
+    <section class="footer">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6 col-sm-6">
+            <div class="side-one">
+              <ul>
+                <li><a href="">About us </a></li>
+                <li><a href="">Terms </a></li>
+                <li><a href="">Conditions</a></li>
+                <li><a href="">Privacy </a></li>
+                <li><a href=""> Press </a></li>
+                <li><a href=""> Help </a></li>
+                <li><a href="">Affiliates </a></li>
+                <li><a href="">Advertisers </a></li>
+              </ul>
+              <p>(C)Copyrighte 2020</p>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-6">
+            <div class="side-two">
+              <div class="socil-logo">
+                <ul class="d-flex">
+                  <li>
+                    <a href=""> <i class="fab fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fab fa-facebook"></i></a>
+                  </li>
+
+                  <li>
+                    <a href=""> <i class="fab fa-instagram-square"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fab fa-whatsapp"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <a href="#" class="invite">To invite a friend </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================================footer end=========================================== -->
+   
+  <script src="https://vjs.zencdn.net/7.18.1/video.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/scrollreveal.js"></script>
+    <script src="js/jquery.syotimer.min.js"></script>
+     
+    <script src="js/custom.js"></script>
+
+  </body>
+</html>

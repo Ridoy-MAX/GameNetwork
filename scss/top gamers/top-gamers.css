@@ -1,0 +1,330 @@
+/*==========
+Best palyer start
+==============*/
+.Best-palyer .banner-slider3 .previous-arrow {
+  position: absolute;
+  top: -40px;
+  right: 75px;
+  z-index: 1111111;
+  color: #ffffff;
+  font-size: 11px;
+  padding: 9px 11px;
+  transition: 0.3s;
+  cursor: pointer;
+  border-radius: 100px;
+  background-color: #f0f0f02c !important;
+}
+
+.Best-palyer .banner-slider3 .next-arrow {
+  position: absolute;
+  top: -40px;
+  right: 24px;
+  z-index: 1111111;
+  color: #ffffff;
+  font-size: 11px;
+  padding: 9px 11px;
+  transition: 0.3s;
+  cursor: pointer;
+  border-radius: 100px;
+  background-color: #f0f0f02c !important;
+}
+
+.Best-palyer {
+  position: relative;
+}
+.Best-palyer .player .banner-slider3 .banner-item {
+  width: 350px;
+  margin: 12px;
+}
+.Best-palyer .player .banner-slider3 .banner-item .player-one {
+  border-radius: 15px;
+}
+.Best-palyer .player .banner-slider3 .banner-item .player-one .one-bg {
+  background: linear-gradient(90deg, #060552 0%, #090979 0%, #0470bd 0%, #0386cb 0%, #0296d5 0%, #49a8ca 0%, #7381d2 100%, #00d4ff 100%);
+}
+.Best-palyer .player .banner-slider3 .banner-item .player-one .sub {
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+  padding: 5px 10px;
+  background-color: #32323a;
+  display: flex;
+  height: 48px;
+  justify-content: space-between;
+}
+.Best-palyer .player .banner-slider3 .banner-item .player-one .sub .pepole {
+  height: 40px;
+}
+.Best-palyer .player .banner-slider3 .banner-item .player-one .sub .pepole ul {
+  display: flex;
+}
+.Best-palyer .player .banner-slider3 .banner-item .player-one .sub .pepole ul .one {
+  width: 30px;
+  height: 30px;
+  margin-left: 80px;
+}
+.Best-palyer .player .banner-slider3 .banner-item .player-one .sub .pepole ul .two {
+  position: relative;
+  left: -6px;
+  width: 35px;
+  height: 35px;
+}
+.Best-palyer .player .banner-slider3 .banner-item .player-one .sub .pepole ul .three {
+  position: relative;
+  left: -19px;
+  width: 35px;
+  height: 35px;
+}
+.Best-palyer .player .banner-slider3 .banner-item .player-one .sub .pepole ul .four {
+  position: relative;
+  left: -30px;
+  width: 35px;
+  height: 35px;
+}
+.Best-palyer .player .banner-slider3 .banner-item .player-one .sub .pepole ul .five {
+  position: relative;
+  left: -39px;
+  width: 35px;
+  height: 35px;
+  background-color: #f16621;
+  border: 3px solid #27272f;
+  border-radius: 100px;
+  font-family: "aven-bold";
+  font-size: 12px;
+  color: white;
+  align-items: center;
+  text-align: center;
+  line-height: 29px;
+}
+.Best-palyer .player .banner-slider3 .banner-item .player-one .sub .text {
+  height: 40px;
+  align-items: center;
+}
+.Best-palyer .player .banner-slider3 .banner-item .player-one .sub .text h4 {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #6c6c7b;
+  font-family: "aven-light";
+}
+.Best-palyer .player .banner-slider3 .banner-item .player-one .details-bg {
+  padding: 10px 16px;
+  background-color: #27272f;
+}
+.Best-palyer .player .banner-slider3 .banner-item .player-one .details-bg .two {
+  justify-content: space-between;
+}
+.Best-palyer .player .banner-slider3 .banner-item .player-one .details-bg .two h5 {
+  font-size: 14px;
+  color: #fb8c08;
+  font-family: "aven-light";
+}
+.Best-palyer .player .banner-slider3 .banner-item .player-one .details-bg .two h5 span {
+  color: #e4e4e4;
+}
+.Best-palyer .player .banner-slider3 .banner-item .player-one .details-bg h4 {
+  font-size: 14px;
+  color: #e4e4e4;
+  font-family: "aven-light";
+}
+.Best-palyer .player .banner-slider3 .banner-item .player-one .details-bg h3 {
+  font-size: 14px;
+  color: #6c6c7b;
+  font-family: "aven-light";
+}
+.Best-palyer .player .banner-slider3 .banner-item .player-one .details-bg .one {
+  justify-content: space-between;
+}
+.Best-palyer .player .banner-slider3 .banner-item .player-one .details-bg .one h2 {
+  font-size: 12px;
+  color: #6c6c7b;
+  font-family: "aven-light";
+}
+.Best-palyer .player .banner-slider3 .banner-item .player-one .details-bg .one i {
+  font-size: 22px;
+  color: #6c6c7b;
+  margin-left: 35px;
+}
+.Best-palyer .player .banner-slider3 .banner-item .player-one .img {
+  position: relative;
+  height: 320px;
+  overflow: hidden;
+}
+.Best-palyer .player .banner-slider3 .banner-item .player-one .img img {
+  position: absolute;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+}
+.Best-palyer .player .banner-slider3 .banner-item .player-one .img .over {
+  border-radius: 8px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 22px;
+  background: #060552;
+  background: linear-gradient(90deg, #060552 0%, #090979 0%, #0470bd 0%, #0386cb 0%, #0296d5 0%, #46d783 0%, #1db034 100%, #7381d2 100%);
+}
+.Best-palyer .player .banner-slider3 .banner-item .player-one .img h4 {
+  position: absolute;
+  bottom: 0px;
+  font-size: 22px;
+  color: #e4e4e4;
+  margin-left: 10px;
+  z-index: 99999;
+}
+.Best-palyer .player .banner-slider3 .banner-item .player-two {
+  margin-top: 30px;
+  border-radius: 7px;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  background: #060552;
+  background: linear-gradient(90deg, #060552 0%, #090979 0%, #0470bd 0%, #0386cb 0%, #0296d5 0%, #49a8ca 0%, #7381d2 100%, #00d4ff 100%);
+}
+.Best-palyer .player .banner-slider3 .banner-item .player-two .logo img {
+  width: 50px;
+}
+.Best-palyer .player .banner-slider3 .banner-item .player-two .text h2 {
+  font-size: 15px;
+  color: white;
+  background-color: none;
+  margin-bottom: 10px;
+  font-family: "aven-bold";
+}
+.Best-palyer .player .banner-slider3 .banner-item .player-two .text h2 span {
+  position: relative;
+  top: 10px;
+  font-size: 30px;
+  color: white;
+  font-family: "aven-bold";
+  background-color: rgba(255, 255, 255, 0.384);
+  border-radius: 7px;
+  padding: 5px;
+}
+.Best-palyer .heading {
+  padding: 0 20px;
+}
+.Best-palyer .heading h2 {
+  font-size: 30px;
+  font-family: "aven-bold";
+  color: #cacacc;
+  margin-top: 35px;
+}
+.Best-palyer .bg {
+  display: flex;
+  justify-content: end;
+}
+.Best-palyer .bg img {
+  position: absolute;
+  width: 70%;
+  opacity: 0.2;
+}
+
+/*==========
+Best palyer end
+==============*/
+/*==========
+Popular player start
+==============*/
+.Popular-player .banner-slider4 .previous-arrow {
+  position: absolute;
+  top: -40px;
+  right: 75px;
+  z-index: 1111111;
+  color: #ffffff;
+  font-size: 11px;
+  padding: 9px 11px;
+  transition: 0.3s;
+  cursor: pointer;
+  border-radius: 100px;
+  background-color: #f0f0f02c !important;
+}
+
+.Popular-player .banner-slider4 .next-arrow {
+  position: absolute;
+  top: -40px;
+  right: 24px;
+  z-index: 1111111;
+  color: #ffffff;
+  font-size: 11px;
+  padding: 9px 11px;
+  transition: 0.3s;
+  cursor: pointer;
+  border-radius: 100px;
+  background-color: #f0f0f02c !important;
+}
+
+.Popular-player {
+  margin-bottom: 50px;
+}
+.Popular-player .heading {
+  padding: 0 20px;
+}
+.Popular-player .heading h2 {
+  font-size: 30px;
+  font-family: "aven-bold";
+  color: #cacacc;
+  margin-top: 35px;
+  margin-bottom: 50px;
+}
+.Popular-player .banner-slider4 .banner-item {
+  display: flex;
+  background-color: #27272f;
+  justify-content: space-between;
+  border-radius: 8px;
+  margin: 5px;
+}
+.Popular-player .banner-slider4 .banner-item .icon {
+  background-color: #32323a;
+  display: flex;
+  align-items: center;
+  padding: 2px;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+.Popular-player .banner-slider4 .banner-item .icon i {
+  color: white;
+  font-weight: 400;
+}
+.Popular-player .banner-slider4 .banner-item .details {
+  padding: 10px;
+}
+.Popular-player .banner-slider4 .banner-item .details .two {
+  display: flex;
+  justify-content: space-between;
+}
+.Popular-player .banner-slider4 .banner-item .details .two h4 {
+  font-size: 20px;
+  font-family: "aven-reg";
+  color: #e7e7e7;
+}
+.Popular-player .banner-slider4 .banner-item .details .two h5 {
+  font-size: 14px;
+  font-family: "aven-light";
+  color: #f77b13;
+  margin-left: 60px;
+}
+.Popular-player .banner-slider4 .banner-item .details .two h5 span {
+  color: #c0c0c0;
+}
+.Popular-player .banner-slider4 .banner-item .details .one h3 {
+  font-size: 14px;
+  font-family: "aven-reg";
+  color: #f77b13;
+}
+.Popular-player .banner-slider4 .banner-item .details .three h4 {
+  font-size: 14px;
+  font-family: "aven-reg";
+  color: #c7c7c7;
+}
+.Popular-player .banner-slider4 .banner-item .details .three h4 span {
+  color: #ffffff;
+}
+.Popular-player .banner-slider4 .banner-item .img {
+  padding: 7px;
+}
+
+/*==========
+Popular player end
+==============*/
+
+/*# sourceMappingURL=top-gamers.css.map */

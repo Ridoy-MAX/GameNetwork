@@ -1,0 +1,639 @@
+/*==========
+all matchs start
+==============*/
+
+.all-matchs{
+    position: relative;
+    .bg{
+        position: absolute;
+        // left: 30%;
+        opacity: 0.2;
+        z-index: -9;
+    }
+    .heading{
+        padding: 0 20px;
+        h2{
+            font-size: 30px;
+            font-family: "aven-bold";
+            color: #cacacc;
+            margin-top: 35px;
+        }
+    }
+            
+     .shorting{
+         padding: 0 20px;
+         display: flex;
+         justify-content: space-between;
+         .part-two{
+             ul{
+                 display: flex;
+                 li{
+                     margin-right: 8px;
+                     .by{
+                        background-color: rgba(255, 255, 255, 0);
+                        &:hover{
+                            background-color: rgba(244, 114, 27, 0);
+                        }
+                     }
+                     a{
+                        font-family:'aven-reg' ;
+                       font-size: 14px;
+                       color: white;
+                       padding: 7px 16px ;
+                       border-radius: 19px; 
+                       background-color: rgba(255, 255, 255, 0.39);
+                       transition: 0.3s;
+                       &:hover{
+                           background-color: #f4701b;
+                       }
+                     }
+                 }
+             }
+         }
+         .part-one{
+             display: flex;
+             .two{
+                 border-radius: 7px;
+                 display: flex;
+                 align-items: center;
+                 padding: 7px 10px;
+                 border:2px solid orangered ;
+                 cursor: pointer;
+                h4{
+                    font-size: 14px;
+                    color: white;
+                    font-family:'aven-reg' ;
+                    margin-bottom: 0;
+               
+                }
+                i{
+                    font-size: 14px;
+                    color: white;  
+                }
+             }
+             .one{
+                margin-right: 10px;
+
+
+                .form-select {
+                   
+                    display: block;
+                    width: 100%;
+                    padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+                    -moz-padding-start: calc(0.75rem - 3px);
+                    font-size: 1rem;
+                    font-weight: 400;
+                    line-height: 1.5;
+                    color: #e4e4e4;
+                    background-color: rgba(255, 255, 255, 0.096);
+                    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
+                    background-repeat: no-repeat;
+                    background-position: right 0.75rem center;
+                    background-size: 16px 12px;
+                    border: 1px solid #ced4da00;
+                    border-radius: 25px;
+                    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+                    -webkit-appearance: none;
+                    -moz-appearance: none;
+                    appearance: none;
+                }
+
+
+
+
+             }
+             .two{
+
+             }
+         }
+     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Best-palyer1 .banner-slider3 .previous-arrow {
+	position: absolute;
+	top: 550px;
+	right: 75px;
+	z-index: 1111111;
+	color: #ffffff;
+	font-size: 11px;
+	padding: 9px 11px;
+	transition: 0.3s;
+	cursor: pointer;
+	border-radius: 100px;
+	background-color: #f0f0f02c !important;
+}
+.Best-palyer1 .banner-slider3 .next-arrow {
+	position: absolute;
+	top: 550px;
+	right: 24px;
+	z-index: 1111111;
+	color: #ffffff;
+	font-size: 11px;
+	padding: 9px 11px;
+	transition: 0.3s;
+	cursor: pointer;
+	border-radius: 100px;
+	background-color: #f0f0f02c !important;
+}
+.Best-palyer1{
+    position: relative;
+  
+
+
+    .matchs{
+        margin-top: 60px;
+        .banner-slider3{
+            .banner-item{
+                width: 350px;
+                margin: 12px;
+                .player-one{
+                    border-radius: 15px;
+                
+                    .one-bg{
+                        background: linear-gradient(90deg, rgba(6,5,82,1) 0%, rgba(9,9,121,1) 0%, rgba(4,112,189,1) 0%, rgba(3,134,203,1) 0%, rgba(2,150,213,1) 0%, rgba(73,168,202,1) 0%, rgba(115,129,210,1) 100%, rgba(0,212,255,1) 100%); 
+                    }
+                    .sub{
+                    
+                        border-bottom-right-radius:7px ;
+                        border-bottom-left-radius: 7px;
+                        padding: 5px 10px;
+                        background-color: #32323a;
+                        display: flex;
+                        height: 48px;
+                        justify-content: space-between;
+                        .pepole{
+                            height: 40px;
+                            ul{
+                        
+                                display: flex;
+                                  .one{
+                                    width: 30px;
+                                    height: 30px;
+                                    margin-left: 80px;
+                                  }
+                                  .two{
+                                      position: relative;
+                                      left: -6px;
+                                    width: 35px;
+                                    height: 35px;;
+                                  }
+                                  .three{
+                                    position: relative;
+                                    left: -19px;
+                                    width: 35px;
+                                    height: 35px;
+                                  }
+                                  .four{
+                                    position: relative;
+                                    left: -30px;
+                                    width: 35px;
+                                    height: 35px;
+                                  }
+                                  .five{
+                                    position: relative;
+                                    left: -39px;
+                                    width: 35px;
+                                    height: 35px;
+                                    background-color: #f16621;
+                                    border: 3px solid #27272f;
+                                    border-radius: 100px;
+                                    font-family: "aven-bold";
+                                    font-size: 12px;
+                                    color: white;
+                                    align-items: center;
+                                    text-align: center;
+                                    line-height: 29px;
+                                  }
+                            }
+                        }
+                        .text{
+                            height: 40px;
+                            align-items: center;
+                            h4{
+                                width: 125px;
+                                margin-top: 10px;
+                                font-size: 14px;
+                                color: #6c6c7b;
+                                font-family: "aven-reg"; 
+                            }
+                        }
+
+
+                    }
+                
+
+
+                    .details-bg{
+                       
+                        padding: 10px 16px;
+
+                          background-color: #27272f;
+
+                    
+
+
+
+                        .two{
+                            justify-content:space-between;
+                            h4{
+                                font-size: 16px;
+                                color: #c7c7c7;
+                                font-family: "aven-bold"; 
+                                span{
+                                    font-size: 12px;
+                                    color: #fb8c08;
+                                }
+                            }
+                            h5{
+                                font-size: 14px;
+                                color: #c7c7c7;
+                                font-family: "aven-reg"; 
+                                span{
+                                    font-size: 16px;
+                                    color: #fb8c08;
+                                }
+                            }
+                        }
+                        .three{
+                            img{
+                               width: 23px;
+                               height: 23px;
+                            }
+                            h3{
+                                margin-left: 5px;
+                                margin-bottom: 0;
+                                font-size: 20px;
+                                color: #f0f0f0;
+                                font-family: "aven-bold";
+                            }
+                        }
+                        h5{
+                            font-size: 14px;
+                            color: #fb8c08;
+                            font-family: "aven-reg";
+                        }
+                      
+                        .one{
+                            justify-content: space-between;
+                            h2{
+                                font-size: 13px;
+                                color: #6c6c7b;
+                                font-family: "aven-light";;
+                            }
+                            i{
+                                font-size: 22px;
+                                color: #6c6c7b;
+                                margin-left: 35px;
+                            }
+                        }
+                    }
+
+
+
+                    .img{
+                        position: relative;
+                        height: 310px;
+                        overflow: hidden;
+                     
+                        img{
+                             position: absolute;  
+                            z-index: 9999;  
+                            width: 100%;
+                            height: 100%;
+                        }
+                        .over{
+                           border-radius: 8px;
+                            width: 100%;
+                            height: 100%;
+                            position: absolute;
+                            top: 22px;
+                            background: rgb(6,5,82);
+                            background: linear-gradient(90deg, rgba(6,5,82,1) 0%, rgba(9,9,121,1) 0%, rgba(4,112,189,1) 0%, rgba(3,134,203,1) 0%, rgba(2,150,213,1) 0%, rgba(70,215,131,1) 0%, rgba(29,176,52,1) 100%, rgba(115,129,210,1) 100%); 
+                        }
+                        h4{
+                            position: absolute;
+                            bottom: 0px;
+                            font-size: 22px;
+                            color: #e4e4e4;
+                            margin-left: 10px;
+                            z-index: 99999;
+                        }
+                    }
+                }
+
+
+
+
+
+                .player-two{
+                    margin-top: 30px;
+                    border-radius: 7px;
+                    height: 100px;
+                    display: flex;
+                    justify-content: space-around;
+                   
+                    background: rgb(6,5,82);
+                    background: linear-gradient(90deg, rgba(6,5,82,1) 0%, rgba(9,9,121,1) 0%, rgba(4,112,189,1) 0%, rgba(3,134,203,1) 0%, rgba(2,150,213,1) 0%, rgba(73,168,202,1) 0%, rgba(115,129,210,1) 100%, rgba(0,212,255,1) 100%); 
+                    .logo{
+                           img{
+                               width: 50px;
+                           }
+                    }
+                    .text{
+                        h2{
+                            font-size: 15px;
+                                color: white;
+                                background-color: none;
+                                margin-bottom: 10px;
+                                font-family: "aven-bold";
+
+                            span{
+                               
+
+                                  position: relative;
+                                  top: 10px;
+
+                                font-size: 30px;
+                                color: white;
+                                font-family: "aven-bold";
+                                background-color: rgba(255, 255, 255, 0.384);
+                                border-radius: 7px;
+                                padding: 5px;
+                            }
+                        }
+                    }
+                }
+
+
+
+
+
+
+
+
+
+
+
+
+
+            }
+        }
+    }
+
+
+
+
+
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*==========
+all matchs end
+==============*/
+
+/*==========
+ Upcoming tournaments start
+==============*/
+
+.Upcoming-tournaments{
+    margin-bottom: 70px;
+    position: relative;
+    border-radius: 8px;
+    .heading{
+        font-size: 30px;
+            font-family: "aven-bold";
+            color: #cacacc;
+            margin-top: 35px;
+    }
+  
+    .banner-match{
+        margin: 0 16px;
+        height: 305px;
+        border-radius: 8px;
+        .image{
+           
+             img{
+                 position: absolute;
+                 z-index: -1;
+              
+                 height: 300px !important;
+                 
+               
+             }
+        }
+      
+         background-color: #f16621ce;
+         height: 300px;
+        .text{
+            .details-bg{
+            
+                       
+                padding: 10px 16px;
+
+             
+
+            
+
+
+
+                .two{
+                 margin-top: 30px;
+                    h4{
+                        font-size: 20px;
+                        color: #c7c7c7;
+                        font-family: "aven-bold";
+                        margin-left: 30px;
+                        padding: 7px 16px;
+                        background-color: rgba(255, 255, 255, 0.267); 
+                        border-radius: 25px;
+                        span{
+                            font-size: 12px;
+                            color: #363636;
+                        }
+                    }
+
+                    h2{
+                        font-size: 20px;
+                        color: #c7c7c7;
+                        font-family: "aven-bold";
+                        margin-left: 30px;
+                        padding: 7px 16px;
+                        background-color: rgba(255, 255, 255, 0.267); 
+                        border-radius: 25px;
+                        span{
+                         
+                            color: #363636;
+                        }
+                    }
+                
+                }
+                .three{
+                    margin-top: 15px;
+                    img{
+                       width: 23px;
+                       height: 23px;
+                    }
+                    h3{
+                        margin-left: 5px;
+                        margin-bottom: 0;
+                        font-size: 20px;
+                        color: #f0f0f0;
+                        font-family: "aven-bold";
+                    }
+                }
+                h5{
+                    font-size: 17px;
+                    color: #e0e0e0;
+                    font-family: "aven-reg";
+                    margin-top: 15px;
+                }
+              
+                .one{
+                    justify-content: space-between;
+                    h2{
+                        font-size: 17px;
+                        color: #c7c7c7;
+                        font-family: "aven-reg";;
+                    }
+               
+                }
+            }
+            .sub{
+                    margin-top: 50px;
+              
+                padding: 5px 10px;
+           
+                display: flex;
+                height: 48px;
+                justify-content: space-between;
+                .pepole{
+                    height: 40px;
+                    ul{
+                
+                        display: flex;
+                          .one{
+                            width: 30px;
+                            height: 30px;
+                            margin-left: 80px;
+                          }
+                          .two{
+                              position: relative;
+                              left: -6px;
+                            width: 35px;
+                            height: 35px;;
+                          }
+                          .three{
+                            position: relative;
+                            left: -19px;
+                            width: 35px;
+                            height: 35px;
+                          }
+                          .four{
+                            position: relative;
+                            left: -30px;
+                            width: 35px;
+                            height: 35px;
+                          }
+                          .five{
+                            position: relative;
+                            left: -39px;
+                            width: 35px;
+                            height: 35px;
+                            background-color: #f16621;
+                            border: 3px solid #27272f;
+                            border-radius: 100px;
+                            font-family: "aven-bold";
+                            font-size: 12px;
+                            color: white;
+                            align-items: center;
+                            text-align: center;
+                            line-height: 29px;
+                          }
+                    }
+                }
+                .text{
+                    height: 40px;
+                    align-items: center;
+                    h4{
+                        width: 150px;
+                        margin-top: 10px;
+                        font-size: 17px;
+                        color: #a7a7a7;
+                        font-family: "aven-reg"; 
+                    }
+                }
+
+
+            }
+
+        }
+        .match-logo{
+            height: 300px !important;
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0.267);
+            .img-logo{
+                display: flex;
+                justify-content: center;
+         
+                img{
+                    margin-right: 30px;
+                    margin-top: 30px;
+                }
+            }
+
+                 .img{
+                     display: flex;
+                     justify-content: center;
+                  
+                     img{
+                        margin-top: 30px;
+                     }
+                 }
+        }
+
+
+      
+    }
+}
+
+/*==========
+ Upcoming tournaments end
+==============*/
